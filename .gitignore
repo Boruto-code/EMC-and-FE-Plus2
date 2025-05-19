@@ -6,7 +6,7 @@
 !resourcepacks/
 !tacz/
 
-!config/* */
+!config/*
 !kubejs/*
 !mods/*
 !resourcepacks/*

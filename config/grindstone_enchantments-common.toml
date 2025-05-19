@@ -1,0 +1,19 @@
+
+[general]
+	#choose between cost types:
+	#-NO_COST: there will be no cost to disenchant items
+	#-SPECIFIC_COST: determine a specific cost to disenchant items
+	#-VANILLA_COST: the costs of the levels will be similar to the anvil
+	#Allowed Values: NO_COST, SPECIFIC_COST, VANILLA_COST
+	xpCostType = "VANILLA_COST"
+	#specifies the value of the levels the type SPECIFIC_COST must be selected for this value to work
+	#Range: 1 ~ 1000
+	specificCostValue = 3
+	#specifies the value of the damage percent of the item when you use the grindstone
+	#Range: 0 ~ 100
+	damagePercentValue = 10
+	#defines whether to allow transferring curses when using the grindstone
+	allowCurses = false
+	#defines compatibility with the TaxFreeLevels mod (will work only if installed)
+	taxFreeLevelsCompatibility = true
+
