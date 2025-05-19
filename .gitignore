@@ -1,10 +1,12 @@
 *
 
-!config
-!kubejs
-!mods
-!resourcepacks
-!tacz
+!config/
+!kubejs/
+!mods/
+!resourcepacks/
+!tacz/
 
 !.gitignore
 !options.txt
+!README.md
+!LICENSE
