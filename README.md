@@ -14,6 +14,11 @@
 
 如果遇到 Bug 可以在 [Github Issue](https://github.com/Boruto-code/EMC-and-FE-Plus2/issues) 反馈。这是作者的第一个整合包，有不平衡的部分也可在 Issue 反馈，作者会尽量修改。
 
+## 更新计划
+
+- 添加 AE2 任务线
+- 自定义思索
+
 ---
 
 *Welcome to EMC & FE ++, a world of magic and technology!*
@@ -31,5 +36,10 @@ The "FE" in the title refers to Forge Energy and tech mods. Key automation mods 
 ## Bug Reports  
 
 If you encounter bugs, please submit them via [Github Issues](https://github.com/Boruto-code/EMC-and-FE-Plus2/issues). As this is the author's first modpack, balance Issues or bugs are expected. Feedback is welcome, and the author will strive to address them.
+
+## Update plan
+
+- Add AE2 questline
+- Custom ponders
 
 *Tips: Machine translation is used for the English part.*
