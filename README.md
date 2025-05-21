@@ -19,6 +19,10 @@
 - 添加 AE2 任务线
 - 自定义思索
 
+## 服务端
+
+在 Github Releases 下载带有 "-Server" 的版本，解压并放入服务端文件夹。
+
 ---
 
 *Welcome to EMC & FE ++, a world of magic and technology!*
@@ -41,5 +45,9 @@ If you encounter bugs, please submit them via [Github Issues](https://github.com
 
 - Add AE2 questline
 - Custom ponders
+
+## Server
+
+Download the version with "-Server" in Github Releases, unzip it, and put it in the server-side folder.
 
 *Tips: Machine translation is used for the English part.*

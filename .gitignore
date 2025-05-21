@@ -4,13 +4,15 @@
 !kubejs/
 !mods/
 !resourcepacks/
-!tacz/
+!CustomSkinLoader/
+!defaultconfigs/
 
 !config/*
 !kubejs/*
 !mods/*
 !resourcepacks/*
-!tacz/*
+!CustomSkinLoader/*
+!defaultconfigs/*
 
 !.gitignore
 !options.txt
