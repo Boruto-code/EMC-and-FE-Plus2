@@ -21,9 +21,8 @@ removeDivingBootsAffect = false
 [wrench]
 alwaysAllowRotating = false
 removeCooldown = true
-[flywheel]
+[other]
+rainbowDebug = false
 forcedBackend = false
-[jei]
 nonrandomScrap = true
-[nbt]
-nbtFix = true
+nbtFix = false

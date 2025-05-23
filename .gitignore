@@ -2,6 +2,8 @@
 
 !config/
 !kubejs/
+!kubejs/server_scripts/
+!kubejs/server_scripts/recipes/
 !mods/
 !resourcepacks/
 !CustomSkinLoader/
@@ -9,6 +11,8 @@
 
 !config/*
 !kubejs/*
+!kubejs/server_scripts/*
+!kubejs/server_scripts/recipes/*
 !mods/*
 !resourcepacks/*
 !CustomSkinLoader/*
