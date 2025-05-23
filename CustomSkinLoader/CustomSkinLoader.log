@@ -1,47 +1,76 @@
-[2025-05-22 16:35:36] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.23
-[2025-05-22 16:35:36] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader
-[2025-05-22 16:35:36] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 11 (amd64) version 10.0
-[2025-05-22 16:35:36] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 23.0.1, Azul Systems, Inc.
-[2025-05-22 16:35:36] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.20.1
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Config File: D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader\CustomSkinLoader.json
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.23
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 32
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
-[2025-05-22 16:35:37] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
-[2025-05-22 16:35:37] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Loading Hamburger0abcde's profile.
-[2025-05-22 16:35:37] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
-[2025-05-22 16:35:37] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
-[2025-05-22 16:35:37] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Payload: ["Hamburger0abcde"]
-[2025-05-22 16:35:37] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
-[2025-05-22 16:35:37] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Content: [ ]
-[2025-05-22 16:35:37] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Profile not found.(Hamburger0abcde's profile not found.)
-[2025-05-22 16:35:37] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
-[2025-05-22 16:35:37] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Hamburger0abcde.json'.
-[2025-05-22 16:35:38] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 188)
-[2025-05-22 16:35:38] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 188 , Path: 'D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader\caches\217c023d87104dba2188ae7c4fb6ae94f2ce2d8f' , Expire: 1747903029)
-[2025-05-22 16:35:38] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Content: {"username":"Hamburger0abcde","skins":{"slim":"287a1d87b96d78cb2d7a85203279442baecfe8f46d58360035107ec0c6e40783"},"cape":"bc9ea85e346347fcad61fb8e660107189c412470f7cc88471b837c848b4188ec"}
-[2025-05-22 16:35:38] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Hamburger0abcde's profile loaded.
-[2025-05-22 16:35:38] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: (SkinUrl: https://littleskin.cn/csl/textures/287a1d87b96d78cb2d7a85203279442baecfe8f46d58360035107ec0c6e40783 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/bc9ea85e346347fcad61fb8e660107189c412470f7cc88471b837c848b4188ec  , Expiry: 1747902968)
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.23
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 11 (amd64) version 10.0
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 23.0.1, Azul Systems, Inc.
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.20.1
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Config File: D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader\CustomSkinLoader.json
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.23
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 32
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2025-05-23 16:32:20] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2025-05-23 16:32:20] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Loading Hamburger0abcde's profile.
+[2025-05-23 16:32:20] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-05-23 16:32:20] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2025-05-23 16:32:20] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Payload: ["Hamburger0abcde"]
+[2025-05-23 16:32:21] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2025-05-23 16:32:21] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2025-05-23 16:32:21] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Profile not found.(Hamburger0abcde's profile not found.)
+[2025-05-23 16:32:21] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2025-05-23 16:32:21] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Hamburger0abcde.json'.
+[2025-05-23 16:32:21] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 188)
+[2025-05-23 16:32:21] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 188 , Path: 'D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader\caches\217c023d87104dba2188ae7c4fb6ae94f2ce2d8f' , Expire: 1747989231)
+[2025-05-23 16:32:21] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Content: {"username":"Hamburger0abcde","skins":{"slim":"287a1d87b96d78cb2d7a85203279442baecfe8f46d58360035107ec0c6e40783"},"cape":"bc9ea85e346347fcad61fb8e660107189c412470f7cc88471b837c848b4188ec"}
+[2025-05-23 16:32:21] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Hamburger0abcde's profile loaded.
+[2025-05-23 16:32:21] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: (SkinUrl: https://littleskin.cn/csl/textures/287a1d87b96d78cb2d7a85203279442baecfe8f46d58360035107ec0c6e40783 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/bc9ea85e346347fcad61fb8e660107189c412470f7cc88471b837c848b4188ec  , Expiry: 1747989171)
+[2025-05-23 17:16:52] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Loading Hamburger0abcde's profile.
+[2025-05-23 17:16:52] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-05-23 17:16:52] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2025-05-23 17:16:52] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Payload: ["Hamburger0abcde"]
+[2025-05-23 17:16:53] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2025-05-23 17:16:53] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2025-05-23 17:16:53] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Profile not found.(Hamburger0abcde's profile not found.)
+[2025-05-23 17:16:53] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2025-05-23 17:16:53] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Hamburger0abcde.json'.
+[2025-05-23 17:16:53] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 188)
+[2025-05-23 17:16:53] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 188 , Path: 'D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader\caches\217c023d87104dba2188ae7c4fb6ae94f2ce2d8f' , Expire: 1747991907)
+[2025-05-23 17:16:53] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Content: {"username":"Hamburger0abcde","skins":{"slim":"287a1d87b96d78cb2d7a85203279442baecfe8f46d58360035107ec0c6e40783"},"cape":"bc9ea85e346347fcad61fb8e660107189c412470f7cc88471b837c848b4188ec"}
+[2025-05-23 17:16:53] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Hamburger0abcde's profile loaded.
+[2025-05-23 17:16:53] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: (SkinUrl: https://littleskin.cn/csl/textures/287a1d87b96d78cb2d7a85203279442baecfe8f46d58360035107ec0c6e40783 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/bc9ea85e346347fcad61fb8e660107189c412470f7cc88471b837c848b4188ec  , Expiry: 1747991843)
+[2025-05-23 17:17:35] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Loading Hamburger0abcde's profile.
+[2025-05-23 17:17:35] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-05-23 17:17:35] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2025-05-23 17:17:35] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Payload: ["Hamburger0abcde"]
+[2025-05-23 17:17:36] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2025-05-23 17:17:36] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2025-05-23 17:17:36] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Profile not found.(Hamburger0abcde's profile not found.)
+[2025-05-23 17:17:36] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2025-05-23 17:17:36] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Hamburger0abcde.json'.
+[2025-05-23 17:17:36] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 188 , Path: 'D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader\caches\217c023d87104dba2188ae7c4fb6ae94f2ce2d8f' , Expire: 1747991907)
+[2025-05-23 17:17:36] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Try to load from cache 'D:\game\Minecraft\Release 2.8.3\.minecraft\versions\EMC and FE ++\CustomSkinLoader\caches\217c023d87104dba2188ae7c4fb6ae94f2ce2d8f'.
+[2025-05-23 17:17:36] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2025-05-23 17:17:36] [Hamburger0abcde/DEBUG] [CustomSkinLoader Core]: Content: {"username":"Hamburger0abcde","skins":{"slim":"287a1d87b96d78cb2d7a85203279442baecfe8f46d58360035107ec0c6e40783"},"cape":"bc9ea85e346347fcad61fb8e660107189c412470f7cc88471b837c848b4188ec"}
+[2025-05-23 17:17:36] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: Hamburger0abcde's profile loaded.
+[2025-05-23 17:17:36] [Hamburger0abcde/INFO] [CustomSkinLoader Core]: (SkinUrl: https://littleskin.cn/csl/textures/287a1d87b96d78cb2d7a85203279442baecfe8f46d58360035107ec0c6e40783 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/bc9ea85e346347fcad61fb8e660107189c412470f7cc88471b837c848b4188ec  , Expiry: 1747991886)

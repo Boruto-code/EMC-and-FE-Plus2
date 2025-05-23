@@ -23,6 +23,16 @@
 
 在 Github Releases 下载带有 "-Server" 的版本，解压并放入服务端文件夹。
 
+## 常见问题
+
+Q：龙之研究模组的部分物品渲染为空，为什么？
+
+A: 龙之研究与 Embeddium 有部分冲突，按 F3+T 即可解决。
+
+Q：为什么 Curseforge 上有部分版本缺失？
+
+A：更改较少且不影响游戏体验的版本将只会发布在 Github。
+
 ---
 
 *Welcome to EMC & FE ++, a world of magic and technology!*
@@ -49,5 +59,19 @@ If you encounter bugs, please submit them via [Github Issues](https://github.com
 ## Server
 
 Download the version with "-Server" in Github Releases, unzip it, and put it in the server-side folder.
+
+## Q & A
+
+Q: Why are some items in the Draconic Evolution module rendered empty?
+
+A: There is a partial conflict between Draconic Evolution and Embeddium, which can be resolved by pressing F3+T.
+
+Q: Why are some versions of Curseforge missing?
+
+A: Versions that have changed less and do not affect the game experience will only be published on Github.
+
+Q: Will there be an English translation?
+
+A: It will be produced after the official version is released.
 
 *Tips: Machine translation is used for the English part.*
