@@ -1,4 +1,5 @@
-*欢迎来到 EMC & FE ++，一个魔法与科技的世界！*
+
+_欢迎来到 EMC & FE ++，一个魔法与科技的世界！_
 
 # 介绍
 
@@ -16,8 +17,8 @@
 
 ## 更新计划
 
-- 添加 AE2 任务线
-- 自定义思索
+*   添加 AE2 任务线
+*   自定义思索
 
 ## 服务端
 
@@ -35,7 +36,7 @@ A：更改较少且不影响游戏体验的版本将只会发布在 Github。
 
 ---
 
-*Welcome to EMC & FE ++, a world of magic and technology!*
+_Welcome to EMC & FE ++, a world of magic and technology!_
 
 # Introduction
 
@@ -43,18 +44,18 @@ A：更改较少且不影响游戏体验的版本将只会发布在 Github。
 
 The "FE" in the title refers to Forge Energy and tech mods. Key automation mods include [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage), [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2), [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism), and [Draconic Evolution](https://www.curseforge.com/minecraft/mc-mods/draconic-evolution). Non-FE mods like [Create](https://www.curseforge.com/minecraft/mc-mods/create) and [Botania](https://www.curseforge.com/minecraft/mc-mods/botania) also play vital roles. By leveraging automation systems and EMC, you can rapidly gather resources.
 
-## About Optifine  
+## About Optifine
 
 **Do not install [Optifine](https://www.optifine.net/home).** This modpack contains numerous mods that conflict with Optifine. The pack includes optimized performance mods to ensure stable 60~90 FPS even on low-end PCs.
 
-## Bug Reports  
+## Bug Reports
 
 If you encounter bugs, please submit them via [Github Issues](https://github.com/Boruto-code/EMC-and-FE-Plus2/issues). As this is the author's first modpack, balance Issues or bugs are expected. Feedback is welcome, and the author will strive to address them.
 
 ## Update plan
 
-- Add AE2 questline
-- Custom ponders
+*   Add AE2 questline
+*   Custom ponders
 
 ## Server
 
@@ -74,4 +75,4 @@ Q: Will there be an English translation?
 
 A: It will be produced after the official version is released.
 
-*Tips: Machine translation is used for the English part.*
+_Tips: Machine translation is used for the English part._
