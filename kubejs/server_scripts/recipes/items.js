@@ -23,14 +23,13 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem("kubejs:incomplete_shadow_steel").loops(3)
 
-    create.sequenced_assembly(
-        Item.of("create:creative_blaze_cake").withChance(1),
-        "create:creative_fluid_tank",
+    create.deploying(
+        Item.of("create:creative_blaze_cake"),
         [
-            create.filling("kubejs:incomplete_creative_blaze_cake",
-                [Fluid.of("kubejs:liquid_antimatter").withAmount(100),Item.of("kubejs:incomplete_creative_blaze_cake")])
+            "create:creative_fluid_tank",
+            "mekanism:pellet_antimatter"
         ]
-    ).transitionalItem("kubejs:incomplete_creative_blaze_cake").loops(100)
+    )
 
     create.mixing(
         Fluid.of("kubejs:liquid_antimatter").withAmount(1000),
@@ -135,9 +134,9 @@ ServerEvents.recipes(event => {
             "ABCCDCCBA",
             "BFGGJGGFB",
             "CGINONPGC",
-            "CGLTRQLGC",
-            "EHMRSRMHE",
-            "CGLQRTLGC",
+            "CGLRQRUGC",
+            "EHMTSTMHE",
+            "CGLRQRUGC",
             "CGINONPGC",
             "BFGGKGGFB",
             "ABCCDCCBA"
@@ -162,7 +161,8 @@ ServerEvents.recipes(event => {
             Q: "botania:creative_pool",
             R: "draconicevolution:creative_capacitor",
             S: "draconicevolution:creative_op_capacitor",
-            T: "mythicbotany:mjoellnir"
+            T: "mythicbotany:mjoellnir",
+            U: "refinedstorage:creative_wireless_grid"
         }
     )
 

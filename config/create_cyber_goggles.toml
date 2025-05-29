@@ -5,6 +5,7 @@ enhancedStoreRender = true
 renderExtraItems = true
 enableKineticEffect = true
 preciseNumbers = true
+[gameMode]
 enableInSurvival = true
 enableInCreative = true
 enableInSpectator = true

@@ -1,24 +1,40 @@
 *
 
 !config/
-!kubejs/
-!kubejs/server_scripts/
-!kubejs/server_scripts/recipes/
 !mods/
 !resourcepacks/
 !CustomSkinLoader/
+
+!kubejs/
+!kubejs/server_scripts/
+!kubejs/server_scripts/recipes/
+
 !defaultconfigs/
+!defaultconfigs/ftbchunks/
+!defaultconfigs/ftblibrary/
+!defaultconfigs/ftbquests/
+!defaultconfigs/ftbultimine/
+
 
 !config/*
-!kubejs/*
-!kubejs/server_scripts/*
-!kubejs/server_scripts/recipes/*
 !mods/*
 !resourcepacks/*
 !CustomSkinLoader/*
 !defaultconfigs/*
 
+!kubejs/*
+!kubejs/server_scripts/*
+!kubejs/server_scripts/recipes/*
+
+!defaultconfigs/*
+!defaultconfigs/ftbchunks/*
+!defaultconfigs/ftblibrary/*
+!defaultconfigs/ftbquests/*
+!defaultconfigs/ftbultimine/*
+
+
 !.gitignore
 !options.txt
 !README.md
+!CHANGELOG.md
 !LICENSE
