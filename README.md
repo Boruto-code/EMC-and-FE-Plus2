@@ -24,11 +24,10 @@ _欢迎来到 EMC & FE ++，一个魔法与科技的世界！_
 
 在 Github Releases 下载带有 "-Server" 的版本，解压并放入服务端文件夹。
 
-## 常见问题
+## 内存配置
 
-Q：龙之研究模组的部分物品渲染为空，为什么？
-
-A: 龙之研究与 Embeddium 有部分冲突，按 F3+T 即可解决。
+最小内存分配：4 GB
+推荐内存分配：8 GB
 
 ---
 
@@ -57,11 +56,12 @@ If you encounter bugs, please submit them via [Github Issues](https://github.com
 
 Download the version with "-Server" in Github Releases, unzip it, and put it in the server-side folder.
 
+## Memory configuration
+
+Minimum memory allocation: 4 GB
+Recommended memory allocation: 8 GB
+
 ## Q & A
-
-Q: Why are some items in the Draconic Evolution module rendered empty?
-
-A: There is a partial conflict between Draconic Evolution and Embeddium, which can be resolved by pressing F3+T.
 
 Q: Will there be an English translation?
 

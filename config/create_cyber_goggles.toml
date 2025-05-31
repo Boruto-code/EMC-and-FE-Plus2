@@ -23,6 +23,7 @@ removeDivingBootsAffect = false
 alwaysAllowRotating = false
 removeCooldown = true
 [other]
+rightClickPenetrate = false
 rainbowDebug = false
 forcedBackend = false
 nonrandomScrap = true
