@@ -27,6 +27,7 @@ _欢迎来到 EMC & FE ++，一个魔法与科技的世界！_
 ## 内存配置
 
 最小内存分配：4 GB
+
 推荐内存分配：8 GB
 
 ---
@@ -59,6 +60,7 @@ Download the version with "-Server" in Github Releases, unzip it, and put it in 
 ## Memory configuration
 
 Minimum memory allocation: 4 GB
+
 Recommended memory allocation: 8 GB
 
 ## Q & A
