@@ -23,19 +23,6 @@ ServerEvents.recipes(event => {
         ]
     ).transitionalItem("kubejs:incomplete_shadow_steel").loops(3)
 
-    create.deploying(
-        Item.of("create:creative_blaze_cake"),
-        [
-            "create:creative_fluid_tank",
-            "mekanism:pellet_antimatter"
-        ]
-    )
-
-    create.mixing(
-        Fluid.of("kubejs:liquid_antimatter").withAmount(1000),
-        Item.of("mekanism:pellet_antimatter")
-    )
-
     create.mechanical_crafting(
         "createaddition:creative_energy",
         [

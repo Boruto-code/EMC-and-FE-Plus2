@@ -1,6 +1,21 @@
 # EMC & FE ++ Change Log
 ---
-## Lastest 1.0.0-Beta.2
+## Lastest 1.0.0-Beta.3
+### 修复
+- 无
+
+### 新增
+- 烈焰人燃烧室的配方
+- Mod: FTB XMod Compat
+- Mod: TorchMaster
+- Mod: Forgematica
+
+### 调整
+- 删除液态反物质
+- 通用机械与等价交换的任务线
+
+---
+## 1.0.0-Beta.2
 ### 修复
 - 无
 
@@ -9,7 +24,7 @@
 
 ### 调整
 - 无
----
+
 ## 1.0.0-Beta.1
 ### 修复
 - 无

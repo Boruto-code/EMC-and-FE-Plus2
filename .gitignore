@@ -8,6 +8,7 @@
 !kubejs/
 !kubejs/server_scripts/
 !kubejs/server_scripts/recipes/
+!kubejs/startup_scripts/
 
 !defaultconfigs/
 !defaultconfigs/ftbchunks/
@@ -25,6 +26,7 @@
 !kubejs/*
 !kubejs/server_scripts/*
 !kubejs/server_scripts/recipes/*
+!kubejs/startup_scripts/*
 
 !defaultconfigs/*
 !defaultconfigs/ftbchunks/*
