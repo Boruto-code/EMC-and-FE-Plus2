@@ -107,6 +107,11 @@ ServerEvents.recipes(event => {
             F: "create:steam_engine"
         }
     )
+    
+    create.deploying(
+        "create:creative_blaze_cake",
+        ["create:creative_fluid_tank","mekanism:pellet_antimatter"]
+    )
 
 
     avaritia
