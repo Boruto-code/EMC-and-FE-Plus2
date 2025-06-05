@@ -1,6 +1,6 @@
 # EMC & FE ++ Change Log
 ---
-## Lastest 1.0.0-Beta.3
+## Lastest 1.0.0
 ### 修复
 - 无
 
@@ -9,6 +9,7 @@
 - Mod: FTB XMod Compat
 - Mod: TorchMaster
 - Mod: Forgematica
+- 服务端版本
 
 ### 调整
 - 删除液态反物质
