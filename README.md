@@ -20,6 +20,10 @@ _欢迎来到 EMC & FE ++，一个魔法与科技的世界！_
 *   添加 AE2 任务线
 *   自定义思索
 
+### 更高版本？
+
+将会在每个新的 Minecraft 大版本更新此整合包。每年也会有此整合包的分支，玩法有部分差别，但模组类似。
+
 ## 服务端
 
 在 Github Releases 下载带有 "-Server" 的版本，解压并放入服务端文件夹。
@@ -56,6 +60,10 @@ If you encounter bugs, please submit them via [Github Issues](https://github.com
 ## Server
 
 Download the version with "-Server" in Github Releases, unzip it, and put it in the server-side folder.
+
+### Later?
+
+This modpack will be updated with each new major version of Minecraft. There will also be a fork of this modpack every year, with some differences in gameplay, but similar mods.
 
 ## Memory configuration
 

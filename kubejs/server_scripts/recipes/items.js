@@ -370,6 +370,11 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shapeless(
+        Item.of("draconicevolution:creative_capacitor").withCount(4),
+        "draconicevolution:creative_op_capacitor"
+    )
+
     event.remove({id: "avaritia:mek_creative_bin"})
     event.remove({id: "avaritia:ae2_creative_energy_cell"})
     event.remove({id: "avaritia:mek_creative_energy_cube"})

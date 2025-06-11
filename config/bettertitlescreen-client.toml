@@ -1,7 +1,7 @@
 
 ["custom text"]
 	#Insert the custom title screen text you want here (supports multiple lines)
-	text = ["欢迎来到 EMC & FE ++ 1.0.0!"]
+	text = ["欢迎来到 EMC & FE ++ 1.0.2!"]
 
 [versions]
 	#Show which version of Minecraft the client is currently running.

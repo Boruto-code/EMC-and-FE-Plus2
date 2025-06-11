@@ -1,6 +1,20 @@
 # EMC & FE ++ Change Log
 ---
-## Lastest 1.0.1
+## Lastest 1.0.2
+### 修复
+- 通用机械的创造物品任务标题错误
+
+### 新增
+- Mod: Simple Voice Chat
+- Mod: LDLib
+- Mod: Multiblocked2
+- 创造通量容器的配方
+
+### 调整
+- 无
+
+---
+## 1.0.1
 ### 修复
 - 创造烈焰蛋糕的配方丢失
 
@@ -10,16 +24,15 @@
 ### 调整
 - 无
 
----
 ## 1.0.0
 ### 修复
 - 无
 
 ### 新增
-- 烈焰人燃烧室的配方
 - Mod: FTB XMod Compat
 - Mod: TorchMaster
 - Mod: Forgematica
+- 烈焰人燃烧室的配方
 - 服务端版本
 
 ### 调整

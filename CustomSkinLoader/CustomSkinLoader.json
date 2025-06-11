@@ -3,12 +3,6 @@
   "buildNumber": 32,
   "loadlist": [
     {
-      "name": "Mojang",
-      "type": "MojangAPI",
-      "apiRoot": "https://api.mojang.com/",
-      "sessionRoot": "https://sessionserver.mojang.com/"
-    },
-    {
       "name": "LittleSkin",
       "type": "CustomSkinAPI",
       "root": "https://littleskin.cn/csl/"
