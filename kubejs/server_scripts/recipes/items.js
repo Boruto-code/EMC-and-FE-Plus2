@@ -263,7 +263,7 @@ ServerEvents.recipes(event => {
             "AAAABAAAA",
             "AAABABAAA",
             "AABAAABAA",
-            "AAAABAAAA",
+            "AAAACAAAA",
             "AAABABAAA",
             "AABAAABAA",
             "AAAAAAAAA",
@@ -271,7 +271,8 @@ ServerEvents.recipes(event => {
         ],
         {
             A: "#functionalstorage:drawer",
-            B: "functionalstorage:netherite_upgrade"
+            B: "functionalstorage:netherite_upgrade",
+            C: "projecte:tome"
         }
     )
 
@@ -279,20 +280,19 @@ ServerEvents.recipes(event => {
         4,
         "functionalstorage:creative_vending_upgrade",
         [
-            "AAAAAAAAA",
-            "AAACCCAAA",
-            "AACAAACAA",
-            "AACAAACAA",
-            "AACABAAAA",
-            "AACAAACAA",
-            "AACAAACAA",
-            "AAACCCAAA",
-            "AAAAAAAAA"
+            "         ",
+            "   BBB   ",
+            "  B   B  ",
+            "  B   B  ",
+            "  B A    ",
+            "  B   B  ",
+            "  B   B  ",
+            "   BBB   ",
+            "         "
         ],
         {
             A: "functionalstorage:max_storage_upgrade",
-            B: "projecte:tome",
-            C: "mekanism:pellet_antimatter"
+            B: "mekanism:pellet_antimatter"
         }
     )
 
