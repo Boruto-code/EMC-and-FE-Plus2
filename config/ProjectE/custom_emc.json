@@ -1,0 +1,208 @@
+{
+  "entries": [
+    {
+      "item": "draconicevolution:dragon_heart",
+      "emc": 30000
+    },
+    {
+      "item": "draconicevolution:draconium_dust",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "emc": 50000
+    },
+    {
+      "item": "minecraft:elytra{Damage:0}",
+      "emc": 114514
+    },
+    {
+      "item": "mekanism:bio_fuel",
+      "emc": 4
+    },
+    {
+      "item": "mekanism:substrate",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:glass_pane",
+      "emc": 1
+    },
+    {
+      "item": "mekanism:dust_lithium",
+      "emc": 0
+    },
+    {
+      "item": "fluxnetworks:flux_dust",
+      "emc": 256
+    },
+    {
+      "item": "bigreactors:benitoite_crystal",
+      "emc": 8192
+    },
+    {
+      "item": "bigreactors:anglesite_crystal",
+      "emc": 8192
+    },
+    {
+      "item": "mysticalagriculture:prosperity_shard",
+      "emc": 1024
+    },
+    {
+      "item": "mysticalagriculture:inferium_essence",
+      "emc": 128
+    },
+    {
+      "item": "#forge:glass_panes",
+      "emc": 1
+    },
+    {
+      "item": "#forge:pellets/plutonium",
+      "emc": 32767
+    },
+    {
+      "item": "#forge:pellets/polonium",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:chaos_shard",
+      "emc": 2147483647
+    },
+    {
+      "item": "create:zinc_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "create:ochrum",
+      "emc": 64
+    },
+    {
+      "item": "tfmg:lithium_ingot",
+      "emc": 8192
+    },
+    {
+      "item": "create_new_age:magnetite_block",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:stone_slab",
+      "emc": 1
+    },
+    {
+      "item": "createaddition:electrum_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "create:brass_ingot",
+      "emc": 2240
+    },
+    {
+      "item": "create:brass_casing",
+      "emc": 2272
+    },
+    {
+      "item": "create:copper_casing",
+      "emc": 160
+    },
+    {
+      "item": "create:andesite_casing",
+      "emc": 120
+    },
+    {
+      "item": "create:sturdy_sheet",
+      "emc": 48
+    },
+    {
+      "item": "create:railway_casing",
+      "emc": 2320
+    },
+    {
+      "item": "create:track",
+      "emc": 57
+    },
+    {
+      "item": "minecraft:smooth_stone_slab",
+      "emc": 1
+    },
+    {
+      "item": "create:asurine",
+      "emc": 64
+    },
+    {
+      "item": "create:crimsite",
+      "emc": 64
+    },
+    {
+      "item": "create:limestone",
+      "emc": 64
+    },
+    {
+      "item": "mekanism:pellet_plutonium",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:stone_brick_slab",
+      "emc": 1
+    },
+    {
+      "item": "kubejs:copper_coin",
+      "emc": 128
+    },
+    {
+      "item": "kubejs:iron_coin",
+      "emc": 256
+    },
+    {
+      "item": "kubejs:gold_coin",
+      "emc": 2048
+    },
+    {
+      "item": "kubejs:diamond_coin",
+      "emc": 8192
+    },
+    {
+      "item": "kubejs:netherite_coin",
+      "emc": 65536
+    },
+    {
+      "item": "avaritia:blaze_cube",
+      "emc": 26472
+    },
+    {
+      "item": "avaritia:infinity_bucket",
+      "emc": 55110867199
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "emc": 180000
+    },
+    {
+      "item": "avaritia:neutron_horse_armor",
+      "emc": 54365954154
+    },
+    {
+      "item": "avaritia:endless_cake",
+      "emc": 54365988011
+    },
+    {
+      "item": "avaritia:infinity_totem",
+      "emc": 54366095288
+    },
+    {
+      "item": "avaritia:extreme_anvil",
+      "emc": 54365987511
+    },
+    {
+      "item": "avaritia:infinity_chest",
+      "emc": 137539201565
+    },
+    {
+      "item": "minecraft:brick",
+      "emc": 16
+    }
+  ]
+}

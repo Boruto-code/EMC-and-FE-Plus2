@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5BD9B5B5451C2FFC"
+	group: "3D98C137848D0155"
+	icon: "create:creative_motor"
+	id: "5BD9B5B5451C2FFC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["最简单的动力源，消耗饥饿值产生动力。"]
+			id: "5762CD92B2D28DB7"
+			rewards: [{
+				count: 5
+				id: "477A1959683591EA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "应力：8 su/RPM  RPM：32 RPM"
+			tasks: [{
+				id: "681C88AEC09C3BA4"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			description: ["初期的一种普通应力源。"]
+			id: "7F1EDC485003AC70"
+			rewards: [{
+				count: 10
+				id: "2D302968EFBFB9F0"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "应力：32 su/RPM  RPM：8 RPM"
+			tasks: [{
+				id: "7F4D698ED7247EDD"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			description: ["初期最好用的应力源，应力量大。"]
+			id: "2267A0C9BCFDFFB2"
+			rewards: [{
+				count: 10
+				id: "4A6623B568E64582"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "应力：128 su/RPM  RPM：4 RPM"
+			tasks: [{
+				id: "5F9017E730313FCF"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "50FDD555C8171942"
+			rewards: [{
+				count: 15
+				id: "7ABA959A5B1FFDBC"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "应力：512~8192 su/RPM  RPM：1~16 RPM"
+			tasks: [{
+				id: "40E85D0536594518"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "风车"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: ["蒸汽引擎须安装在 &l&6流体储罐&r&r 的任意一面，随后该流体储罐会成为 &l&6锅炉&r&r。为了使蒸汽引擎能够产出动力，需要在其前方放置 &l&6传动杆&r&r，使用物品传动杆对蒸汽引擎右击即可。"]
+			id: "41E148AA75A21CB3"
+			rewards: [{
+				count: 5
+				id: "0DF4256BABD5E744"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "应力：0~16384 su  RPM：16~64 RPM"
+			tasks: [{
+				id: "16F4C4042B908FD6"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "锅炉"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			description: ["利用 FE 产生应力，在背面调整转速。"]
+			id: "71301FEECB5629DD"
+			rewards: [{
+				count: 3
+				id: "58C6E5607447677F"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7D1CFE7CC8BF5A8D"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			id: "0CD06A5F1C3529F0"
+			rewards: [{
+				count: 3
+				id: "36EEBBF95BA93C02"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "62E6938792EE02E3"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+	]
+	title: "寻找好的动力源"
+}

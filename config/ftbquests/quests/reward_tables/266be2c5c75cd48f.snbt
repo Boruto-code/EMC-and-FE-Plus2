@@ -1,0 +1,11 @@
+{
+	empty_weight: 1.0f
+	id: "266BE2C5C75CD48F"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "kubejs:copper_coin" }
+		{ count: 2, item: "kubejs:copper_coin" }
+	]
+	title: "铜币抽奖"
+}

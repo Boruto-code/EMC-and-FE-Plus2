@@ -1,0 +1,11 @@
+{
+	empty_weight: 1.0f
+	id: "7AE902CED1C6C2CA"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "kubejs:gold_coin" }
+		{ count: 2, item: "kubejs:gold_coin" }
+	]
+	title: "金币抽奖"
+}

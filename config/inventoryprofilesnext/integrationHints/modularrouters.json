@@ -1,0 +1,55 @@
+{
+    "me.desht.modularrouters.client.gui.ModularRouterScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.BreakerModuleScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.ActivatorModuleScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.AbstractModuleScreen": {
+        "ignore": true,
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.DetectorModuleScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.DistributorModuleScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.ExtruderModule2Screen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.FlingerModuleScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.FluidModuleScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.VacuumModuleScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.module.PlayerModuleScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.filter.BulkItemFilterScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.modularrouters.client.gui.filter.ModFilterScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": -12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": -24
+            }
+        }
+    }
+}

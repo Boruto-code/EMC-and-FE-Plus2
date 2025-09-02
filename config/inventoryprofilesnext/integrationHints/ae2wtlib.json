@@ -1,0 +1,86 @@
+{
+    "de.mari_023.ae2wtlib.wct.WCTScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 22
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 22
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            }
+        }
+    },
+    "de.mari_023.ae2wtlib.wet.WETScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "de.mari_023.ae2wtlib.wat.WATScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "de.mari_023.ae2wtlib.wct.magnet_card.config.MagnetScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "de.mari_023.ae2wtlib.wct.TrashScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 20,
+                "bottom": 29
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 20
+            }
+        }
+    }
+}

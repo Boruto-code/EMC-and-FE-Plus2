@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54883983EB5A57E1"
+	group: "7FABB2F7E5BB8366"
+	icon: "draconicevolution:creative_op_capacitor"
+	id: "54883983EB5A57E1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4579602118FA8B4D"
+			rewards: [{
+				count: 3
+				id: "6EE358722BD47F81"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "71EBCB0137EB1960"
+					item: "draconicevolution:creative_op_capacitor"
+					type: "item"
+				}
+				{
+					id: "450F039BED7E1FCB"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+				{
+					id: "5A7541DFD7329FB8"
+					item: "integrateddynamics:energy_battery_creative"
+					type: "item"
+				}
+			]
+			title: "无尽"
+			x: 0.75d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4579602118FA8B4D"
+				"402702E9640B96ED"
+				"5A8F3CC9381DACCE"
+				"6FDE04F9ADC1C8B1"
+				"1ED29CBCFAE0E201"
+				"245B51151EFBD869"
+				"4157C0BA0624FAAD"
+			]
+			id: "6277BF39E3596B84"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2E5B80F6A6B7AF13"
+				item: "projecte:tome"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["476AF23331768C95"]
+			id: "1ED29CBCFAE0E201"
+			rewards: [{
+				count: 2
+				id: "5AEDE57A4E495C08"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "20DC27C58EF227CE"
+					item: "botania:creative_pool"
+					type: "item"
+				}
+				{
+					id: "69DF2F9D613343FE"
+					item: "mythicbotany:mjoellnir"
+					type: "item"
+				}
+			]
+			title: "植物魔法"
+			x: -0.75d
+			y: -3.75d
+		}
+		{
+			id: "6FDE04F9ADC1C8B1"
+			rewards: [{
+				count: 4
+				id: "7B9623E079E20AAF"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5400A31DADA249D5"
+					item: "refinedstorage:creative_wireless_grid"
+					type: "item"
+				}
+				{
+					id: "445D6C15585EB1AE"
+					item: "refinedstorage:creative_storage_disk"
+					type: "item"
+				}
+				{
+					id: "37FFD9D0706F9D98"
+					item: "refinedstorage:creative_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "7EB7BEC9630145E9"
+					item: "refinedstorage:creative_controller"
+					type: "item"
+				}
+			]
+			title: "精致存储"
+			x: 2.25d
+			y: -3.75d
+		}
+		{
+			id: "245B51151EFBD869"
+			rewards: [{
+				count: 4
+				id: "69BB927C2B7B4264"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "27B5EB748593416A"
+					item: "createaddition:creative_energy"
+					type: "item"
+				}
+				{
+					id: "789D766701E849CF"
+					item: "create:creative_motor"
+					type: "item"
+				}
+				{
+					id: "45E27E0E4F4E8BB0"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+				{
+					id: "35F4AAFCF8D05624"
+					item: "create:creative_fluid_tank"
+					type: "item"
+				}
+			]
+			title: "机械动力"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2C6582D0D831A79E"]
+			id: "5A8F3CC9381DACCE"
+			rewards: [{
+				count: 3
+				id: "4167D2CADF970461"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "05DA362A3A1DB99A"
+					item: "mekanism:creative_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "6A549163E4D75E9A"
+					item: "mekanism:creative_chemical_tank"
+					type: "item"
+				}
+				{
+					id: "083EA3DAC389DFEB"
+					item: {
+						Count: 1
+						id: "mekanism:creative_energy_cube"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+								componentConfig: {
+									config0: {
+										side0: 4
+										side1: 4
+										side2: 4
+										side3: 4
+										side4: 4
+										side5: 4
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "通用机械"
+			x: -1.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6277BF39E3596B84"]
+			id: "6262DE4B11572D06"
+			rewards: [{
+				count: 128
+				id: "19C0B05015CF8E7F"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6692289FAB8A95D1"
+				item: "mekanism:creative_bin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6277BF39E3596B84"]
+			id: "221B92C713E83F70"
+			rewards: [{
+				count: 128
+				id: "1C99361FA2F6E602"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5D2C1DFF733F76B1"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6277BF39E3596B84"]
+			id: "78B0DB79F18C7E04"
+			rewards: [{
+				count: 128
+				id: "43AF6B9A87404318"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "08E4A048F82EA2C1"
+				item: "create:creative_crate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"221B92C713E83F70"
+				"78B0DB79F18C7E04"
+				"6262DE4B11572D06"
+			]
+			id: "0EDA9A53D5B461FC"
+			rewards: [{
+				id: "3122BEE48E4A5857"
+				item: "ae2:creative_fluid_cell"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "63A27753C7C53BD9"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			title: "你为什么要这样做？"
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0EDA9A53D5B461FC"]
+			id: "3FCCBD6257977AE1"
+			rewards: [{
+				id: "00F3E62E299F1FF6"
+				item: "create:handheld_worldshaper"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "304DBF5C0BBA8B4B"
+				title: "感谢游玩！"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 6.0d
+		}
+	]
+	title: "Chapter ∞: 终局"
+}

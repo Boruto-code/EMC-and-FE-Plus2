@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2598DD5507DF439E"
+	group: "67DDB26600B9A092"
+	icon: "bigreactors:yellorium_ingot"
+	id: "2598DD5507DF439E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "29C57ACFAF3F00CA"
+			rewards: [{
+				count: 3
+				id: "54693FD9EB348904"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71BA15A7ED47D04E"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			title: "聚变"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29C57ACFAF3F00CA"]
+			id: "638FFC602D281264"
+			rewards: [{
+				count: 5
+				id: "4F2624464B841B92"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "682ACBEBBA52749D"
+				item: "bigreactors:cyanite_ingot"
+				type: "item"
+			}]
+			title: "衰变"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "68939468340A6D50"
+			tasks: [{
+				id: "0D4B068FBED996E3"
+				item: "bigreactors:benitoite_crystal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"68939468340A6D50"
+				"780BCDA663613C1B"
+			]
+			id: "37C6CD08D5B91ACD"
+			rewards: [{
+				count: 32
+				id: "733C735DA32BF701"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A3D2FF3259CB969"
+				item: "bigreactors:insanite_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["638FFC602D281264"]
+			id: "780BCDA663613C1B"
+			rewards: [{
+				count: 5
+				id: "3322087A5C794650"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F4BBA5F9484BBE5"
+				item: "bigreactors:blutonium_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["780BCDA663613C1B"]
+			id: "02F239257EB379BB"
+			rewards: [{
+				count: 8
+				id: "1762568BB7B19923"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "080A5D8E9F4E0BC1"
+				item: "bigreactors:ludicrite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02F239257EB379BB"]
+			id: "191E94277565D3CC"
+			rewards: [{
+				count: 10
+				id: "3D43B06A41E133B8"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E43ABF30AD1955"
+				item: "bigreactors:ridiculite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "1DEDADC18A662999"
+			tasks: [{
+				id: "6C719A376735B399"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1DEDADC18A662999"
+				"4058F6427A5F65EC"
+			]
+			id: "538FAA55E8CBD98D"
+			rewards: [{
+				count: 32
+				id: "549E9BC2DC906F38"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "358A7E19B9CCD028"
+				item: "bigreactors:inanite_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"37C6CD08D5B91ACD"
+				"538FAA55E8CBD98D"
+			]
+			id: "402702E9640B96ED"
+			rewards: [{
+				count: 64
+				id: "1DE063869EE473B1"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E85AA589D6E8D11"
+				item: "bigreactors:insanite_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["191E94277565D3CC"]
+			id: "4058F6427A5F65EC"
+			rewards: [{
+				count: 16
+				id: "368F2AE0409409F0"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08EF3629B5C1F044"
+				item: "bigreactors:inanite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+	title: "Chapter 8: 永无极限"
+}

@@ -1,0 +1,1337 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "38F87B3D94CE500C"
+	group: "7FABB2F7E5BB8366"
+	icon: "projectexpansion:final_power_flower"
+	id: "38F87B3D94CE500C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4CDF73AC0974CDA3"
+			rewards: [{
+				count: 3
+				id: "7534DB52769FADDF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49510F6F0351DB90"
+				item: "projectexpansion:basic_power_flower"
+				type: "item"
+			}]
+			title: "第一个盆栽"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["571B7E400E6417F9"]
+			id: "66B78380CE09CCD2"
+			rewards: [{
+				count: 10
+				id: "3786B933117A2010"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0391BDC96A338A7E"
+				item: "projectexpansion:final_power_flower"
+				type: "item"
+			}]
+			title: "终极盆栽"
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			id: "0C6FFEECA202140D"
+			rewards: [{
+				count: 3
+				id: "78719C8021510C27"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000F7EC699B3FE68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk1_necklace"
+				}
+				type: "item"
+			}]
+			title: "能量项链"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["033F2B8F95E0A855"]
+			id: "042EAA697EEB2F1A"
+			rewards: [{
+				count: 10
+				id: "13FCC4C0FF098820"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62D82F9E9305C230"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk16_necklace"
+				}
+				type: "item"
+			}]
+			title: "终极项链"
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			id: "3CCAE24E5FC7A39E"
+			rewards: [{
+				count: 3
+				id: "42C47052AFDE0E39"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CD19BA5255692C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk1_charm"
+				}
+				type: "item"
+			}]
+			title: "力量之花"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E4A9B103FF32934"]
+			id: "56913EC9FDF9367E"
+			rewards: [{
+				count: 10
+				id: "3A3044EB5CDAA459"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "243DF270513A612C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk16_charm"
+				}
+				type: "item"
+			}]
+			title: "终极之花"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			id: "58EBF4FE0F16D8D3"
+			rewards: [{
+				count: 3
+				id: "778F50B30AD23CDA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AB4FDD57B64CD96"
+				item: "projectexpansion:dark_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C6FFEECA202140D"]
+			id: "19FE4FDEE29AB616"
+			rewards: [{
+				count: 3
+				id: "5BA4C04EBC78613B"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D958A6AB24072D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk2_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CCAE24E5FC7A39E"]
+			id: "044A3BD92EC65AB1"
+			rewards: [{
+				count: 3
+				id: "2B05D7A8C2AAE430"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58770BB6C171EC94"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk2_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72B3881352B65418"]
+			id: "571B7E400E6417F9"
+			rewards: [{
+				count: 5
+				id: "3B6EA686FEE6988B"
+				item: "projectexpansion:final_star_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06A4A09FCD2F647E"
+				item: "projectexpansion:final_star_shard"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["084889636C6AB16F"]
+			id: "72B3881352B65418"
+			rewards: [{
+				count: 3
+				id: "34ED9209F1C48EE3"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D523E510C1DE537"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_omega"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["79ADAEB1B8B2939C"]
+			id: "084889636C6AB16F"
+			rewards: [{
+				count: 3
+				id: "3249EA16E4653594"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10087250943F2270"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_sphere"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["02FEA4B7E5DB8CBD"]
+			id: "79ADAEB1B8B2939C"
+			rewards: [{
+				count: 3
+				id: "447A1DF2A3231556"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26B0DAFE46A8AE1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_vier"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2DAA18361875D726"]
+			id: "02FEA4B7E5DB8CBD"
+			rewards: [{
+				count: 3
+				id: "4D0AAB31D0AC512D"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B91AC39AB8F945B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_drei"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["327F56A5CE2E8C3C"]
+			id: "2DAA18361875D726"
+			rewards: [{
+				count: 3
+				id: "27F1D5B7ABA8B3D8"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5000315138D761F6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_zwei"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B01DEA41994A974"]
+			id: "327F56A5CE2E8C3C"
+			rewards: [{
+				count: 3
+				id: "7CD232B87DFB0A69"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4363DDA83E3D1892"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_ein"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "68303AC07C18098C"
+			rewards: [{
+				count: 3
+				id: "0C2A0ABCC24DB28B"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5500C106D13CEFD1"
+				item: "projectexpansion:red_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "3BFE5BFE4EC7C400"
+			rewards: [{
+				count: 3
+				id: "07547D5490D034A4"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1155CEFB52A79307"
+				item: "projectexpansion:magenta_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "7F72CDA3895E65B3"
+			rewards: [{
+				count: 3
+				id: "4926CA924CA417A8"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10B5C3F4949493D1"
+				item: "projectexpansion:pink_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "1933CD9FBB9EA551"
+			rewards: [{
+				count: 3
+				id: "1CC6E44E83AC39B4"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6098F68F169AC573"
+				item: "projectexpansion:purple_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "6D67DAA742359028"
+			rewards: [{
+				count: 3
+				id: "4311DDE340B3DF53"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "560907CFD5083866"
+				item: "projectexpansion:violet_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "5F1CBE152B8F16DB"
+			rewards: [{
+				count: 3
+				id: "35DF313D259E4E53"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C1DD0E1864BA214"
+				item: "projectexpansion:blue_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "7BD83735C7F1ADED"
+			rewards: [{
+				count: 3
+				id: "139098868E5A9A0E"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26C990ADA767C897"
+				item: "projectexpansion:cyan_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "5D03F5055FF424D5"
+			rewards: [{
+				count: 3
+				id: "16A287B1E69A9DDA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A717E72AC56D183"
+				item: "projectexpansion:green_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "05D2E36A11BB352D"
+			rewards: [{
+				count: 3
+				id: "48A0D26D4539E1A0"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "546477AF7E7F8DD7"
+				item: "projectexpansion:lime_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			id: "613AB5D9BDEE0D95"
+			rewards: [{
+				count: 3
+				id: "60EA695FFD79E251"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33216B3463065E3A"
+				item: "projectexpansion:yellow_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "14DD4D0D2C7BC143"
+			rewards: [{
+				count: 3
+				id: "644C0F99F3F31B46"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C797D71A101CE9"
+				item: "projectexpansion:orange_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			id: "39AB1B733D6839E9"
+			rewards: [{
+				count: 3
+				id: "3227221740C5BFA8"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4661DB505BC5B9CD"
+				item: "projectexpansion:white_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			id: "532D6A5A4D862AED"
+			rewards: [{
+				count: 3
+				id: "515A28296EEBABCD"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E928920CE91229E"
+				item: "projectexpansion:fading_power_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7767D34DDF224ED2"]
+			id: "1B01DEA41994A974"
+			rewards: [{
+				count: 3
+				id: "426C238A98246F75"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5505C3E0E9021A1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_omega"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B4472F9931E8074"]
+			id: "7767D34DDF224ED2"
+			rewards: [{
+				count: 3
+				id: "26CA1102C6531E7E"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "671002C77B7C52A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_sphere"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["311A0E30CA8FF167"]
+			id: "4B4472F9931E8074"
+			rewards: [{
+				count: 3
+				id: "6BD0DD450B99D2EC"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A365E9967F34E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_vier"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C10BA6E67B56F16"]
+			id: "311A0E30CA8FF167"
+			rewards: [{
+				count: 3
+				id: "0F0A674A119EC4A0"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A3A04D342EFD79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_drei"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71C2696CA7548175"]
+			id: "6C10BA6E67B56F16"
+			rewards: [{
+				count: 3
+				id: "2D2F4BE6A58C68E5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "752817BBDAD15590"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_zwei"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "71C2696CA7548175"
+			rewards: [{
+				count: 3
+				id: "5309142EC9F2DA46"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A61EA304E866039"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_ein"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66B78380CE09CCD2"]
+			id: "06020C6B23E5A000"
+			rewards: [{
+				count: 5
+				id: "4BB4451FE4081A92"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B04482A80B7C12E"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["06020C6B23E5A000"]
+			id: "4E54AE319D32F1C3"
+			rewards: [{
+				count: 5
+				id: "17C645798EAC1C1A"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EE79127CAB989DB"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			title: "\\O/\\O/\\O/ 将军！！"
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["19FE4FDEE29AB616"]
+			id: "378A35CBCBF2C4C6"
+			rewards: [{
+				count: 3
+				id: "1DC40559038A6C48"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DEB5F8F9B538E9A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk3_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["378A35CBCBF2C4C6"]
+			id: "15B5BBC953C26DE2"
+			rewards: [{
+				count: 3
+				id: "0A044040126644B2"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58BFBEDD9604C99C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk4_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15B5BBC953C26DE2"]
+			id: "20C3E21A35C35FEE"
+			rewards: [{
+				count: 3
+				id: "5A5D529B45049175"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C1E935B58396D11"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk5_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20C3E21A35C35FEE"]
+			id: "588B91714802A57C"
+			rewards: [{
+				count: 3
+				id: "1EB52BBC5F1C60A2"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60A727FEE9D44AAF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk6_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["588B91714802A57C"]
+			id: "439191181151398E"
+			rewards: [{
+				count: 3
+				id: "6EFEBA2DBA5678CF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A32944BB3FE5417"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk7_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["439191181151398E"]
+			id: "35042E4950524E6D"
+			rewards: [{
+				count: 3
+				id: "6CFBF8B61B40D919"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F825A2C31C9ACC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk8_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35042E4950524E6D"]
+			id: "35EA9DB7DB7FFB3C"
+			rewards: [{
+				count: 3
+				id: "262F5D8DC395C3CD"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1605DD36C153FCBE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk9_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35EA9DB7DB7FFB3C"]
+			id: "1778B00FA290833C"
+			rewards: [{
+				count: 3
+				id: "29B4294D20F355BF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65FFEEB5D90D9717"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk10_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1778B00FA290833C"]
+			id: "12F92F9A41ECCAC6"
+			rewards: [{
+				count: 3
+				id: "05DDBA45E21834DF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F28A01C88A3829D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk11_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["12F92F9A41ECCAC6"]
+			id: "5F68A6E52F3E8319"
+			rewards: [{
+				count: 3
+				id: "48EA7460A4D207AB"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B12DCDF48618DA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk12_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5F68A6E52F3E8319"]
+			id: "024BA3136D86FB56"
+			rewards: [{
+				count: 3
+				id: "6B0704E60B564F76"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19B478477A54EC84"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk13_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["024BA3136D86FB56"]
+			id: "37373543AF03D9A2"
+			rewards: [{
+				count: 3
+				id: "21C015EA0633D63C"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6455B27393599419"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk14_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["37373543AF03D9A2"]
+			id: "033F2B8F95E0A855"
+			rewards: [{
+				count: 3
+				id: "71CA4C73B7157E3C"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14BF49FB10A029BC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:collector_mk15_necklace"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["044A3BD92EC65AB1"]
+			id: "3EAE4666E83C8F52"
+			rewards: [{
+				count: 3
+				id: "46E90DFCC96853F1"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1000D9C8DD5C53F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk3_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EAE4666E83C8F52"]
+			id: "01A1723FE02E4974"
+			rewards: [{
+				count: 3
+				id: "4AEA5280C0F32BD3"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66B6B6EE894285AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk4_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01A1723FE02E4974"]
+			id: "73EF3F1A7FA151ED"
+			rewards: [{
+				count: 3
+				id: "0504686DF742E073"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "762AC580454B5F50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk5_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73EF3F1A7FA151ED"]
+			id: "3D4681D64AC543D6"
+			rewards: [{
+				count: 3
+				id: "2F6C47D325FCF3AC"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40329FC3275180F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk6_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D4681D64AC543D6"]
+			id: "086B5825CDF8F2B3"
+			rewards: [{
+				count: 3
+				id: "38B0659BAB9D5550"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C7C1809253830F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk7_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["086B5825CDF8F2B3"]
+			id: "175BF3C7C152FDEA"
+			rewards: [{
+				count: 3
+				id: "493B3C4AC54AC49C"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67EBB0A915980673"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk8_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A314872CEC47D3C"]
+			id: "5E4A9B103FF32934"
+			rewards: [{
+				count: 3
+				id: "535BC2EBAB775C88"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39E52951590F17C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk15_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4921609037A55F4E"]
+			id: "5A314872CEC47D3C"
+			rewards: [{
+				count: 3
+				id: "6ABC55009535BD04"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14C673920D545702"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk14_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["68503220035328A8"]
+			id: "4921609037A55F4E"
+			rewards: [{
+				count: 3
+				id: "57637BDD13496541"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34F26BF4B5184758"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk13_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["175BF3C7C152FDEA"]
+			id: "5F35BB8C49330FB3"
+			rewards: [{
+				count: 3
+				id: "30A19B96CB2E80FF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DF7CC741AD857B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk9_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F35BB8C49330FB3"]
+			id: "629FBBE6A54D1916"
+			rewards: [{
+				count: 3
+				id: "75D51149F59091AC"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16310482515A11C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk10_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["629FBBE6A54D1916"]
+			id: "7DA1B530195E5912"
+			rewards: [{
+				count: 3
+				id: "16F5CEA1263A01B6"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "249061978C6E5311"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk11_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7DA1B530195E5912"]
+			id: "68503220035328A8"
+			rewards: [{
+				count: 3
+				id: "358C318449EFC046"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4397D061957D9D31"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "emcbaubles:flower_mk12_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+	]
+	title: "Chapter 3: 能量之花"
+}
