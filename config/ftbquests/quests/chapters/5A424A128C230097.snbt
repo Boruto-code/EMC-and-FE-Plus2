@@ -1,0 +1,1169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5A424A128C230097"
+	group: "7FABB2F7E5BB8366"
+	icon: "mekanism:pellet_antimatter"
+	id: "5A424A128C230097"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["106B98C2888F9970"]
+			id: "6EC6E8E756B11980"
+			rewards: [{
+				count: 5
+				id: "0620D777C51EA8B6"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C407E6DB152257A"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5DAEF1CD40522028"]
+			id: "015938E65C7E13D9"
+			rewards: [{
+				count: 5
+				id: "0488B6FB92AC1E31"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FD0D1E83ECA5AE0"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["571E601A86907807"]
+			id: "061E0D6D6B88BF3A"
+			rewards: [{
+				count: 5
+				id: "70828FEA072E7986"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69E1C6DB267F1633"
+				item: "mekanism:ultimate_bin"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1788F251E4920471"]
+			id: "2C6582D0D831A79E"
+			rewards: [{
+				count: 5
+				id: "775DDCDACAA69575"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B3DB8D090609E0C"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["066BB168BEB8CCE4"]
+			id: "4157C0BA0624FAAD"
+			rewards: [{
+				count: 15
+				id: "768DBD5D53DB7F55"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "333CA73E3444D211"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FD81C49BAB60450"]
+			id: "3196584110C1640E"
+			rewards: [{
+				count: 5
+				id: "104BA13B29498724"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72A92EF3F9A1E333"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			title: "钋靶丸"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72DA1B854932452D"]
+			id: "55F679596BF49CD2"
+			rewards: [{
+				count: 3
+				id: "75DBF0C5BCF3D232"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FDA5110BBB40128"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "15FA0B57801FB77A"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "2A1ECC9259C834A5"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "627BAAA69ED3E4AB"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			title: "裂变反应堆"
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0605805F82236CFA"]
+			id: "106B98C2888F9970"
+			rewards: [{
+				count: 5
+				id: "08A33B7D11A415D3"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "547D8F8BAA1D5699"
+				item: "mekanism:elite_fluid_tank"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["503E23E0725321FC"]
+			id: "0605805F82236CFA"
+			rewards: [{
+				count: 5
+				id: "23F3D8EF4A685AA4"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A5FFBB31B58078E"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			id: "503E23E0725321FC"
+			rewards: [{
+				count: 5
+				id: "73E0CF99FB3BB1B7"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13F5CB25BC5BF2DB"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			id: "5E66C96AA9D5D01C"
+			rewards: [{
+				count: 5
+				id: "112C2F6A3E7C9FA3"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63DB563DFFEC4DDC"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E66C96AA9D5D01C"]
+			id: "2E805BE02B142D7B"
+			rewards: [{
+				count: 5
+				id: "69D3A7388BDA18FB"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3067B5D85A22960C"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2E805BE02B142D7B"]
+			id: "1788F251E4920471"
+			rewards: [{
+				count: 5
+				id: "06AC1C3EE4A99B49"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F5AC228BEB1DDF7"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["015938E65C7E13D9"]
+			id: "2EBF304D45B7AC56"
+			rewards: [{
+				id: "2005995EC4098DD8"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4061E4245DBB0945"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6EC6E8E756B11980"]
+			id: "674BD7BA60D93655"
+			rewards: [{
+				id: "315F7B56CC71D32F"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65C84BB20D08D45E"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C6582D0D831A79E"]
+			id: "5C331761FBEB806D"
+			rewards: [{
+				id: "61DBF303015772BC"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12511D8BE72F0125"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["061E0D6D6B88BF3A"]
+			id: "23BC5473DE525E58"
+			rewards: [{
+				id: "69259F3330A02C3C"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B159D02105B30E9"
+				item: "mekanism:creative_bin"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44CE18634251A92E"]
+			id: "571E601A86907807"
+			rewards: [{
+				count: 5
+				id: "1108A0EC6AEEED34"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "787FB7BD62C3DCAB"
+				item: "mekanism:elite_bin"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F9AF8CDBA1681CF"]
+			id: "44CE18634251A92E"
+			rewards: [{
+				count: 5
+				id: "1AF534FD7DFF488F"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "450A03EA49BFFC6F"
+				item: "mekanism:advanced_bin"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			id: "0F9AF8CDBA1681CF"
+			rewards: [{
+				count: 5
+				id: "5808524743B896A0"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0876CC834CBD1BCB"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6523710F3198ECA4"]
+			id: "5DAEF1CD40522028"
+			rewards: [{
+				count: 5
+				id: "6CA5A960280DE899"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "120A350E0A2004BD"
+				item: "mekanism:elite_chemical_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["285C6E30D0A19DBE"]
+			id: "6523710F3198ECA4"
+			rewards: [{
+				count: 5
+				id: "52651A323E6028C9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "267F33F348062957"
+				item: "mekanism:advanced_chemical_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			id: "285C6E30D0A19DBE"
+			rewards: [{
+				count: 5
+				id: "25D7D1FBA82C6519"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "437FDCC0AAF1401C"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0273D150B8B8EEF7"]
+			icon: "mekanism:isotopic_centrifuge"
+			id: "72DA1B854932452D"
+			subtitle: "同位素离心机 六氟化铀"
+			tasks: [{
+				id: "7076FA2C161F8AA6"
+				title: "裂变燃料"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"384D8D35CDF9488F"
+				"66D944BB4B85DE9C"
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "0273D150B8B8EEF7"
+			subtitle: "化学灌注器 氢氟酸+氧化铀"
+			tasks: [{
+				id: "62FE46C4CA905781"
+				title: "六氟化铀"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3F7D9FDBC0ED59A6"
+				"75DFD5060A744180"
+			]
+			icon: "mekanism:chemical_dissolution_chamber"
+			id: "384D8D35CDF9488F"
+			subtitle: "化学溶解室 硫酸+氟石块"
+			tasks: [{
+				id: "00130E19216373C2"
+				title: "氢氟酸"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["46C85EDEBE61DB6F"]
+			icon: "mekanism:chemical_oxidizer"
+			id: "66D944BB4B85DE9C"
+			subtitle: "化学氧化机 铀黄饼"
+			tasks: [{
+				id: "1DF4B7BF70C91AB4"
+				title: "氧化铀"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"39F695481D7A519D"
+				"76E9D9C675806EA2"
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "3F7D9FDBC0ED59A6"
+			subtitle: "化学灌注器 水蒸气+三氧化硫"
+			tasks: [{
+				id: "6E8D1E042F8F9C47"
+				title: "硫酸"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			icon: "mekanism:rotary_condensentrator"
+			id: "76E9D9C675806EA2"
+			subtitle: "回旋式气液转换机 蒸发 水"
+			tasks: [{
+				id: "7B9A26752D2511D3"
+				title: "水蒸汽"
+				type: "checkmark"
+			}]
+			title: "水蒸气"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"173A66269E64F0C7"
+				"34EDBAAB719E4744"
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "39F695481D7A519D"
+			subtitle: "化学灌注器 氧气+二氧化硫"
+			tasks: [{
+				id: "37322F84733FBB3E"
+				title: "三氧化硫"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			id: "75DFD5060A744180"
+			tasks: [{
+				id: "505BD93D4C1BF474"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			icon: "mekanism:electrolytic_separator"
+			id: "173A66269E64F0C7"
+			subtitle: "电解分离器 水"
+			tasks: [{
+				id: "7113C5A65395C012"
+				title: "氧气"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["285FA98231FFC3AB"]
+			icon: "mekanism:chemical_oxidizer"
+			id: "34EDBAAB719E4744"
+			tasks: [{
+				id: "43FEDA80D7C40308"
+				title: "二氧化硫"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "285FA98231FFC3AB"
+			tasks: [{
+				id: "1E6D6A4DF824D8C7"
+				item: "mekanism:dust_sulfur"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "46C85EDEBE61DB6F"
+			tasks: [{
+				id: "2AB2F402B61C8E16"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00389591DC5BA03A"]
+			id: "70D6209E4E1FCBEE"
+			rewards: [{
+				count: 5
+				id: "674277B6568256D0"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A0A69D360362A3D"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55F679596BF49CD2"]
+			icon: "mekanism:solar_neutron_activator"
+			id: "2FD81C49BAB60450"
+			tasks: [{
+				id: "1A2C267B90024833"
+				title: "钋"
+				type: "checkmark"
+			}]
+			title: "钋"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["55F679596BF49CD2"]
+			icon: "mekanism:isotopic_centrifuge"
+			id: "00389591DC5BA03A"
+			tasks: [{
+				id: "3A22599ABA94CE3A"
+				title: "钚"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"16B3C3031B78D771"
+				"6DB0E5DA5C7C4938"
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "0180485500091401"
+			subtitle: "化学灌注器 氘+氚"
+			tasks: [{
+				id: "36B657A08DAF5CE1"
+				title: "氘氚燃料"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "2B651F6E6A15656C"
+			tasks: [{
+				id: "70D0CEBE65FEF441"
+				item: "mekanism:thermal_evaporation_controller"
+				type: "item"
+			}]
+			title: "热力蒸馏塔"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B29CA248897E13A"]
+			icon: "mekanism:electrolytic_separator"
+			id: "16B3C3031B78D771"
+			subtitle: "电解分离器 重水"
+			tasks: [{
+				id: "0354C8F25E0F82C6"
+				title: "氘"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "0B29CA248897E13A"
+			tasks: [{
+				id: "4B541D967E8FCF79"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F6D70501591B720"]
+			icon: "mekanism:solar_neutron_activator"
+			id: "6DB0E5DA5C7C4938"
+			subtitle: "太阳能中子活化器 锂"
+			tasks: [{
+				id: "1B7F5DC34FE6E321"
+				title: "氚"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B651F6E6A15656C"]
+			icon: "mekanism:rotary_condensentrator"
+			id: "4F6D70501591B720"
+			subtitle: "回旋式气液转换机 液体蒸发 液态锂"
+			tasks: [{
+				id: "6552F7961B125FE2"
+				title: "液态锂"
+				type: "checkmark"
+			}]
+			title: "锂"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E8450808444C531"]
+			id: "0EF4B680B2DDF581"
+			rewards: [{
+				count: 5
+				id: "1D7E634060135127"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "684B06BB7C791FE1"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0EF4B680B2DDF581"]
+			id: "4E97198DB7C554AA"
+			rewards: [{
+				count: 10
+				id: "5F9E90BA2BAD38E7"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A5A71A7AB2A753C"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4E97198DB7C554AA"]
+			id: "24E23A1D17C5BD4E"
+			rewards: [{
+				count: 20
+				id: "0DAF736A433938E8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "696EDDA2F23CC4B2"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3B58967D35DDB46A"]
+			id: "7343AC9ABE1FA024"
+			rewards: [{
+				count: 3
+				id: "770357733AE13D03"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E25492E720F1CD9"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3D02E421211B7060"]
+			id: "3D46F21D6CC30626"
+			rewards: [{
+				count: 3
+				id: "6D332569D1CB3D26"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076C28A439BF5ED3"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6D45EC51248C1A47"]
+			id: "783BFE21132AFA26"
+			rewards: [{
+				count: 5
+				id: "3D0D77E2D5E0E878"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28F258496DB3B024"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["705D10859613E84C"]
+			id: "79779945988A9033"
+			rewards: [{
+				id: "45F68D0EB2165175"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41B2ED1C1C00D069"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4E8450808444C531"]
+			id: "3B58967D35DDB46A"
+			rewards: [{
+				id: "0F3192A91B065613"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "393BA54B69F90D7D"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"3B58967D35DDB46A"
+				"0EF4B680B2DDF581"
+			]
+			id: "3D02E421211B7060"
+			rewards: [{
+				count: 3
+				id: "484C3EA17AB4279A"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3958AE9219A02BE1"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"3D02E421211B7060"
+				"4E97198DB7C554AA"
+			]
+			id: "6D45EC51248C1A47"
+			rewards: [{
+				count: 5
+				id: "47E8DF83AAE678EA"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D67DFCF7CB06159"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"6D45EC51248C1A47"
+				"24E23A1D17C5BD4E"
+			]
+			id: "705D10859613E84C"
+			rewards: [{
+				count: 10
+				id: "20E9D6D85F3A76B9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "477C73CD68CCD39E"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -9.5d
+		}
+		{
+			id: "4E8450808444C531"
+			rewards: [{
+				count: 5
+				id: "6B5185FB15E30526"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CB6825B91EC29D6"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"265D1D0CA809808F"
+				"3B58967D35DDB46A"
+				"0EF4B680B2DDF581"
+			]
+			id: "3C8E4E49E2452AC3"
+			rewards: [{
+				count: 10
+				id: "52D34F7ABD429375"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "482EC65C81B7DF6D"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E8450808444C531"]
+			id: "35E3ED144A603216"
+			rewards: [{
+				count: 10
+				id: "670A121A36D0A872"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51E794A7BC263B26"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["35E3ED144A603216"]
+			id: "265D1D0CA809808F"
+			rewards: [{
+				id: "132652F7CBD6D84E"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "246422D0EC2BDC8E"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"265D1D0CA809808F"
+				"705D10859613E84C"
+			]
+			id: "6BF95EA5AC5ECD96"
+			rewards: [{
+				count: 5
+				id: "24CFCDBE8E32BE73"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A1A9A6324376405"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["705D10859613E84C"]
+			id: "0E0315FC1D744DAF"
+			rewards: [{
+				count: 5
+				id: "308466675035C831"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C20AD2A27C8C75B"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3B58967D35DDB46A"
+				"0EF4B680B2DDF581"
+			]
+			id: "1D7418802D505A64"
+			rewards: [{
+				count: 10
+				id: "012869EF0D44A018"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "257E91215E423144"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"265D1D0CA809808F"
+				"3B58967D35DDB46A"
+				"0EF4B680B2DDF581"
+			]
+			id: "519D6782CCC32ED9"
+			rewards: [{
+				count: 10
+				id: "70794ADFC1898BCF"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04877606FCD5C351"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6141705786F81905"]
+			id: "574EDA8807D61D11"
+			rewards: [{
+				count: 15
+				id: "08BAE869B2DFB107"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FE9C8D984DD1C4A"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0EF4B680B2DDF581"
+				"48D4640C4E8413C9"
+			]
+			id: "6141705786F81905"
+			rewards: [{
+				id: "10176C8E79FF4F1F"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BFDD5E2E86DF66B"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0EF4B680B2DDF581"]
+			id: "34B620799CF7E99E"
+			rewards: [{
+				count: 10
+				id: "5E77CD5AC31EB0E3"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76644C6A24E40990"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"265D1D0CA809808F"
+				"3B58967D35DDB46A"
+			]
+			id: "48D4640C4E8413C9"
+			rewards: [{
+				count: 10
+				id: "6C0EEB83AD436AEC"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C955795CB16D9E6"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3196584110C1640E"
+				"0180485500091401"
+			]
+			id: "39E0414E5402F267"
+			rewards: [{
+				count: 10
+				id: "6374C26731513F75"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			subtitle: "到商店购买多方块胶囊"
+			tasks: [{
+				id: "1002EDA46B68ADA6"
+				item: "mekanismgenerators:fusion_reactor_controller"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3196584110C1640E"
+				"70D6209E4E1FCBEE"
+			]
+			id: "066BB168BEB8CCE4"
+			rewards: [{
+				count: 15
+				id: "5D82BC6625CBE418"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			subtitle: "到商店购买多方块胶囊"
+			tasks: [{
+				id: "4DAB1F0D5A2B8D96"
+				item: "mekanism:sps_casing"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+	]
+	title: "Chapter 5: 化学实验室"
+}

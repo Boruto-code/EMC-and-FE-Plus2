@@ -1,0 +1,11 @@
+{
+	empty_weight: 1.0f
+	id: "596417B127F2AE48"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "kubejs:iron_coin" }
+		{ count: 2, item: "kubejs:iron_coin" }
+	]
+	title: "铁币抽奖"
+}

@@ -1,0 +1,6 @@
+[generalConfig]
+modifyMessage = true
+[[rules]]
+enable = true
+regex = "$"
+template = ""

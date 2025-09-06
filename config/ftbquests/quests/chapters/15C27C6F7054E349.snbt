@@ -1,0 +1,469 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "15C27C6F7054E349"
+	group: ""
+	icon: "kubejs:netherite_coin"
+	id: "15C27C6F7054E349"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "12D8761E981F1971"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10D54DB479B585FD"
+				table_id: 2768555735030486159L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "48E695F84FC89209"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "铜币抽奖"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "5452605B78EA2502"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55F77C66E9F34C1E"
+				table_id: 6441299416693517896L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7B6808C1264267D7"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "铁币抽奖"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "5A20B46DBEA02ACA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D6E55BFBEE2129D"
+				table_id: 8856613229506773706L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "28ACB419CD48D591"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "金币抽奖"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "4858729A5A7282D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1090F08265218726"
+				table_id: 3828742367245619773L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "747FC882FE098761"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "钻石币抽奖"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "5B869D3697CB30F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09DAD26D7CA1A77B"
+				table_id: 5983202512965612953L
+				type: "loot"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "20FFB553F6B5A6C0"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			title: "下界合金币抽奖"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "create:train_door"
+			id: "019DAA2F750D04C3"
+			rewards: [{
+				id: "207BF1665F277215"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Hamburger0abcde"
+						canRotate: 1b
+						color: 4869306
+						display: {
+							color: 8072841
+						}
+						isReward: 1b
+						label: "Station"
+						oneUse: 1b
+						size: 9
+						state: 2
+						structureName: "config/capsule/rewards/station.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "26D9819C0F0BE199"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "车站"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "0C4F1759F05C8D6A"
+			rewards: [{
+				id: "4232C9973AAD3FC7"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Hamburger0abcde"
+						canRotate: 1b
+						color: 9819623
+						display: {
+							color: 10076989
+						}
+						isReward: 1b
+						label: "Fusion Reactor"
+						oneUse: 1b
+						size: 5
+						state: 2
+						structureName: "config/capsule/rewards/fusion_reactor.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0AFD9A729B8F1E1D"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 36L
+					id: "149C5565509582AD"
+					item: { Count: 36, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 25L
+					id: "3FAC4B7BB031F36A"
+					item: { Count: 25, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "15F77DEFFE920F7B"
+					item: { Count: 4, id: "mekanismgenerators:fusion_reactor_port" }
+					type: "item"
+				}
+			]
+			title: "聚变堆"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "5251AD21232EBD63"
+			rewards: [{
+				id: "05DF59FE125717D5"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Hamburger0abcde"
+						canRotate: 1b
+						color: 14714914
+						display: {
+							color: 12408663
+						}
+						isReward: 1b
+						label: "Fusion Crafting"
+						oneUse: 1b
+						size: 5
+						state: 2
+						structureName: "config/capsule/rewards/fusion_crafting.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "73063B6B621E7519"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "549E721CAA87634D"
+					item: { Count: 12, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "4AC58ECACF584B2C"
+			rewards: [{
+				id: "781A76DDF52B96EB"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Hamburger0abcde"
+						canRotate: 1b
+						color: 14714914
+						display: {
+							color: 12408663
+						}
+						isReward: 1b
+						label: "Supercritical Phase Shifter"
+						oneUse: 1b
+						size: 7
+						state: 2
+						structureName: "config/capsule/rewards/supercritical_phase_shifter.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 60L
+					id: "0A5E3E1720BEF191"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "198F1156C1C71100"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "24168B77C46D4481"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 122L
+					id: "5CB455B51FAFF66D"
+					item: { Count: 122, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			title: "超临界移相器"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "61E0963A07ABE8F1"
+			rewards: [{
+				id: "4555255001FFFFB9"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Hamburger0abcde"
+						canRotate: 1b
+						color: 6196919
+						display: {
+							color: 7105644
+						}
+						isReward: 1b
+						label: "Terrestrial"
+						oneUse: 1b
+						size: 3
+						state: 2
+						structureName: "config/capsule/rewards/terrestrial.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "58E6C9F88F378445"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "5DAE5E3B1EBD6592"
+					item: { Count: 5, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1D36A4F504BA31CA"
+					item: { Count: 4, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "6A8A7300CBB0C439"
+			rewards: [{
+				id: "413D758692F94B7B"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Hamburger0abcde"
+						canRotate: 1b
+						color: 13421772
+						display: {
+							color: 12408663
+						}
+						isReward: 1b
+						label: "Alfheim"
+						oneUse: 1b
+						size: 7
+						state: 2
+						structureName: "config/capsule/rewards/alfheim.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0016884A4FC86D76"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "590DFEBCA244A92C"
+					item: { Count: 8, id: "botania:livingwood" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "6B9F4243F64C7158"
+					item: { Count: 3, id: "botania:glimmering_livingwood" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "5DEE4A4ACCC20B92"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "4BCCB6CBA2AC67B0"
+					item: { Count: 2, id: "botania:mana_pool" }
+					type: "item"
+				}
+			]
+			title: "精灵门"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "62A92917853DF32B"
+			rewards: [{
+				id: "48F055EE29EB529C"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Hamburger0abcde"
+						canRotate: 1b
+						color: 6196919
+						display: {
+							color: 7105644
+						}
+						isReward: 1b
+						label: "Mana Infuser"
+						oneUse: 1b
+						size: 3
+						state: 2
+						structureName: "config/capsule/rewards/mana_infuser.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "479DB27A6CD9E861"
+					item: { Count: 5, id: "botania:shimmerrock" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "2F1C76D91000A610"
+					item: { Count: 4, id: "minecraft:gold_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0BCC6953D05FD0CE"
+					item: "mythicbotany:mana_infuser"
+					type: "item"
+				}
+			]
+			title: "注魔板"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "抽奖/商店"
+}

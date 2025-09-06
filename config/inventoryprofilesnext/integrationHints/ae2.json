@@ -1,0 +1,154 @@
+{
+    "appeng.client.gui.implementations.EnergyLevelEmitterScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.ChestScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.CondenserScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 44
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 29
+            }
+        }
+    },
+    "appeng.client.gui.implementations.DriveScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.InscriberScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 12,
+                "top": 27
+            }
+        }
+    },
+    "appeng.client.gui.implementations.InterfaceScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.MolecularAssemblerScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.PatternProviderScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.SpatialIOPortScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.SpatialAnchorScreen": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.SpatialAnchorMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.crafting.CraftAmountScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.items.SetProcessingPatternAmountScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.crafting.SetStockAmountScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.VibrationChamberScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.QNBScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.FormationPlaneScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.me.common.MEStorageScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.me.patternaccess.PatternAccessTermScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.implementations.StorageBusScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.IOBusScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.WirelessScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.SecurityStationScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    }
+}
