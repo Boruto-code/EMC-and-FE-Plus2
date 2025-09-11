@@ -1,0 +1,9 @@
+{
+    "item.kubejs.copper_coin":"铜币",
+    "item.kubejs.iron_coin":"铁币",
+    "item.kubejs.gold_coin":"金币",
+    "item.kubejs.diamond_coin":"钻石币",
+    "item.kubejs.netherite_coin":"下界合金币",
+    "item.kubejs.incomplete_shadow_steel":"暗影钢（半成品）",
+    "item.kubejs.incomplete_creative_blaze_cake":"创造烈焰蛋糕（半成品）"
+}

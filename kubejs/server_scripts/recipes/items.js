@@ -4,16 +4,6 @@ ServerEvents.recipes(event => {
     const enderio = event.recipes.enderio
     const mekanism = event.recipes.mekanism
 
-
-    create.sequenced_assembly(
-        Item.of("kubejs:charged_sun_star").withChance(1),
-        "kubejs:sun_star",
-        [
-            create.deploying("kubejs:incomplete_charged_sun_star",["kubejs:incomplete_charged_sun_star","projectexpansion:compact_sun"]),
-            create.deploying("kubejs:incomplete_charged_sun_star",["kubejs:incomplete_charged_sun_star","rainbowcompound:netherstar_ingot"])
-        ]
-    ).transitionalItem("kubejs:incomplete_charged_sun_star").loops(128)
-
     create.sequenced_assembly(
         Item.of("create:shadow_steel").withChance(1),
         "create:chromatic_compound",

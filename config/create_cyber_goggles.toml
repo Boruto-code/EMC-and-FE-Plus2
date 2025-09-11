@@ -1,11 +1,12 @@
 [goggles]
 enhancedInfo = true
 hideStaticKineticInfo = false
-enhancedStoreRender = true
+betterStoreInfo = true
 renderExtraItems = true
 enableKineticEffect = true
 preciseNumbers = true
 disableScreenGoggles = true
+betterLine = true
 [gameMode]
 enableInSurvival = true
 enableInCreative = true
@@ -27,5 +28,5 @@ removeCooldown = true
 rightClickPenetrate = false
 rainbowDebug = false
 forcedBackend = false
-nonrandomScrap = true
+showScrapContent = true
 nbtFix = false

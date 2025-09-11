@@ -34,3 +34,6 @@ servers.dat_old
 usercache.json
 usernamecache.json
 wd_next.txt
+
+!kubejs/assets/
+!kubejs/assets/*
