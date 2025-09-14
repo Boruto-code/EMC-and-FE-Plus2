@@ -1,0 +1,2419 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "79D5E66DCDA79A41"
+	group: "7FABB2F7E5BB8366"
+	icon: {
+		Count: 1
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "79D5E66DCDA79A41"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "65D54CDD1DE23E6D"
+			rewards: [{
+				count: 5
+				id: "0B19A04DEF7A7224"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ABDD1A8C6AB2308"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+				}
+				type: "item"
+			}]
+			title: "炼金之始"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65D54CDD1DE23E6D"]
+			id: "598E8575CF96533C"
+			rewards: [{
+				count: 5
+				id: "3892BBA7E5DC2105"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "625ED5F036D89A4A"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			title: "游戏结束"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0412CA04D0C102C5"]
+			id: "75767D2A0E995BBC"
+			rewards: [{
+				count: 3
+				id: "7708DBE3863C11E1"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23970DD6B1507EF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			title: "修补大师"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"58E405150A196E66"
+				"3C5FD47AA2462D04"
+			]
+			id: "33DB551240D0055B"
+			rewards: [{
+				count: 3
+				id: "3B31CAC34D308F89"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B7AAEBD18C13ADE"
+				item: "projecte:nova_cataclysm"
+				type: "item"
+			}]
+			title: "虚假的灾难"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"58E405150A196E66"
+				"0C95F65F467FFB73"
+			]
+			id: "381C3C1D06E4AF58"
+			rewards: [{
+				count: 5
+				id: "7EF6F27B65138180"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28A2B6C180EB0F21"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:destruction_catalyst"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0C95F65F467FFB73"]
+			id: "13AB4C5ABFE8C702"
+			rewards: [{
+				count: 5
+				id: "75ECC7EF7C5C6A8F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BDD7D5906C61D55"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_ein"
+				}
+				type: "item"
+			}]
+			title: "能量存储"
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["15904D70907924CC"]
+			id: "7EBFF8002D25B7D3"
+			rewards: [{
+				count: 5
+				id: "02304675DDBCE81E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35616BBF70B79697"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:gem_of_eternal_density"
+				}
+				type: "item"
+			}]
+			title: "EMC转换"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["15904D70907924CC"]
+			id: "1822C26DD8F950B8"
+			rewards: [{
+				count: 5
+				id: "2A3F7A5F833560BC"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04183E25E7DE30D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:black_hole_band"
+				}
+				type: "item"
+			}]
+			title: "远程吸收"
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["15904D70907924CC"]
+			id: "57A2CA81B8839A8E"
+			rewards: [{
+				count: 5
+				id: "69FD19D37E356829"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5852F357D1EBCC0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:swiftwolf_rending_gale"
+				}
+				type: "item"
+			}]
+			title: "飞行模式"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"58E405150A196E66"
+				"15904D70907924CC"
+			]
+			id: "18CF0DC64FBC4BC2"
+			rewards: [{
+				count: 3
+				id: "785077F16947BE2B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ACF0A87BEE48F9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:hyperkinetic_lens"
+				}
+				type: "item"
+			}]
+			title: "360度轰炸"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04F8A966CAD0296B"]
+			id: "6F52E458D90B157C"
+			rewards: [{
+				count: 3
+				id: "6C8F6AF89BDB1BEE"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "795B2A705891D00A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:life_stone"
+				}
+				type: "item"
+			}]
+			title: "生命恢复"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["04F8A966CAD0296B"]
+			id: "04EC84EEDF753667"
+			rewards: [{
+				count: 3
+				id: "372B6106490BB13E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "544C8B577C4DE056"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:void_ring"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"18CF0DC64FBC4BC2"
+				"381C3C1D06E4AF58"
+				"15904D70907924CC"
+			]
+			id: "540B35801D6D99A4"
+			rewards: [{
+				count: 5
+				id: "67AACB1D0AD9F020"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6A1EC883B5BD12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:catalytic_lens"
+				}
+				type: "item"
+			}]
+			title: "超级宝珠"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15904D70907924CC"]
+			id: "63FAF6BEB61ED213"
+			rewards: [{
+				count: 10
+				id: "687C9F0CD0EC0EE8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "542FA1DC3BADF5C7"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["398552D15BDFCFE4"]
+			id: "2945E185701E9794"
+			rewards: [{
+				count: 5
+				id: "7FA8AEFC27B3EA74"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "173C9E7FDA9046A6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			title: "大容量电池"
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["63FAF6BEB61ED213"]
+			id: "6C76E654E139134D"
+			rewards: [{
+				count: 3
+				id: "60D72CAD3487AED0"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A9A28A72A4AA1C7"
+				item: "projectexpansion:infinite_fuel"
+				type: "item"
+			}]
+			title: "无尽燃料"
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["04F8A966CAD0296B"]
+			id: "7102C2A1E728204F"
+			rewards: [{
+				count: 3
+				id: "64262FEDAD890943"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76FB7D53F1DC6FB3"
+				item: "projecte:rm_furnace"
+				type: "item"
+			}]
+			title: "极速熔炼"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["04F8A966CAD0296B"]
+			id: "11E36D8A5BF07ECC"
+			rewards: [{
+				count: 5
+				id: "167A81BAA9A5E750"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5932FAFA676541D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_morning_star"
+					}
+					type: "item"
+				}
+				{
+					id: "56E06E8831C99B32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_katar"
+					}
+					type: "item"
+				}
+			]
+			title: "多功能工具"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"04F8A966CAD0296B"
+				"2945E185701E9794"
+			]
+			id: "37C1F3631286AC14"
+			rewards: [{
+				count: 20
+				id: "13E7842D898C6139"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B6E6B662E625DD7"
+					item: "projecte:gem_helmet"
+					type: "item"
+				}
+				{
+					id: "058A06A3547E9DDB"
+					item: "projecte:gem_chestplate"
+					type: "item"
+				}
+				{
+					id: "3811CF96F944EA6D"
+					item: "projecte:gem_leggings"
+					type: "item"
+				}
+				{
+					id: "2996CE57A5F5C322"
+					item: "projecte:gem_boots"
+					type: "item"
+				}
+			]
+			title: "万用装甲"
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["15904D70907924CC"]
+			id: "04F8A966CAD0296B"
+			rewards: [{
+				count: 10
+				id: "2AD2F9F3DAD0BD94"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10DBD96607FF5ED5"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["598E8575CF96533C"]
+			id: "15904D70907924CC"
+			rewards: [{
+				count: 5
+				id: "3AEB1C28562E9F04"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D18C237DA08A97C"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"04F8A966CAD0296B"
+				"3C5FD47AA2462D04"
+			]
+			id: "133A84C3400AA826"
+			tasks: [{
+				id: "607230F34056C6F2"
+				item: "projectexpansion:magenta_matter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"133A84C3400AA826"
+				"09018FD148A15EBB"
+			]
+			id: "0EAE9E9D80750C9F"
+			tasks: [{
+				id: "3E79FD5F894EA2BB"
+				item: "projectexpansion:pink_matter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0EAE9E9D80750C9F"
+				"6C2FE72F056D9058"
+			]
+			id: "7F444E5DC125A655"
+			tasks: [{
+				id: "5D04547F9ABE9D02"
+				item: "projectexpansion:purple_matter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7F444E5DC125A655"
+				"4ABA4CE8F33A81A0"
+			]
+			id: "7FD7D04CCEE05B9E"
+			tasks: [{
+				id: "695EFDE3BE93FBC8"
+				item: "projectexpansion:violet_matter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7FD7D04CCEE05B9E"
+				"5ACF180588875475"
+			]
+			id: "5F36A1FDDB1BC598"
+			tasks: [{
+				id: "73404171D10131BF"
+				item: "projectexpansion:blue_matter"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5F36A1FDDB1BC598"
+				"7A7DEE7F57DB5690"
+			]
+			id: "475A8F63DF2C454E"
+			tasks: [{
+				id: "1F2FB9D55C52D4A7"
+				item: "projectexpansion:cyan_matter"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"475A8F63DF2C454E"
+				"006921E434D0A144"
+			]
+			id: "2F5B8630CC83AE99"
+			tasks: [{
+				id: "5E0493DC0EFF6F10"
+				item: "projectexpansion:green_matter"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2F5B8630CC83AE99"
+				"0E05B2E99CF0D092"
+			]
+			id: "44DFEC7A444C6ED8"
+			tasks: [{
+				id: "4F9C4F12A704FA6A"
+				item: "projectexpansion:lime_matter"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"44DFEC7A444C6ED8"
+				"02838D04C21CC1F5"
+			]
+			id: "33126965E8001003"
+			tasks: [{
+				id: "3366D1DB8D4F06C8"
+				item: "projectexpansion:yellow_matter"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"33126965E8001003"
+				"19C944C83B8A6277"
+			]
+			id: "4A6FDA2A91F1097C"
+			tasks: [{
+				id: "11E565EADE0F33D6"
+				item: "projectexpansion:orange_matter"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4A6FDA2A91F1097C"
+				"2088CA48008FA0EC"
+			]
+			id: "344DFB757013D8DA"
+			tasks: [{
+				id: "3F02774B8F575579"
+				item: "projectexpansion:white_matter"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"344DFB757013D8DA"
+				"1862A01EAEAC054A"
+			]
+			id: "2A1F3D60490DB8DA"
+			tasks: [{
+				id: "5091FFD4C677C76B"
+				item: "projectexpansion:fading_matter"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A1F3D60490DB8DA"]
+			id: "51280982A8200067"
+			tasks: [{
+				id: "395E5EEDF90B814C"
+				item: "projectexpansion:final_star_shard"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			id: "04D8952FF064FD95"
+			tasks: [{
+				id: "1AF8F0F4E79836E8"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04D8952FF064FD95"]
+			id: "0C95F65F467FFB73"
+			tasks: [{
+				id: "795D9AC61F2C48DD"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C95F65F467FFB73"]
+			id: "3C5FD47AA2462D04"
+			tasks: [{
+				id: "660FF664A505153C"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C5FD47AA2462D04"]
+			id: "09018FD148A15EBB"
+			tasks: [{
+				id: "280A13470F2EB614"
+				item: "projectexpansion:magenta_fuel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09018FD148A15EBB"]
+			id: "6C2FE72F056D9058"
+			tasks: [{
+				id: "1B59103B710D324B"
+				item: "projectexpansion:pink_fuel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C2FE72F056D9058"]
+			id: "4ABA4CE8F33A81A0"
+			tasks: [{
+				id: "14A09B0DA54193CE"
+				item: "projectexpansion:purple_fuel"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ABA4CE8F33A81A0"]
+			id: "5ACF180588875475"
+			tasks: [{
+				id: "4D73A89B7F3AD82B"
+				item: "projectexpansion:violet_fuel"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5ACF180588875475"]
+			id: "7A7DEE7F57DB5690"
+			tasks: [{
+				id: "13F05ECCFC41FF6B"
+				item: "projectexpansion:blue_fuel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A7DEE7F57DB5690"]
+			id: "006921E434D0A144"
+			tasks: [{
+				id: "4EE92E103D54742D"
+				item: "projectexpansion:cyan_fuel"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["006921E434D0A144"]
+			id: "0E05B2E99CF0D092"
+			tasks: [{
+				id: "097C93CA71D9B551"
+				item: "projectexpansion:green_fuel"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E05B2E99CF0D092"]
+			id: "02838D04C21CC1F5"
+			tasks: [{
+				id: "2242743A9F2BA0EA"
+				item: "projectexpansion:lime_fuel"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02838D04C21CC1F5"]
+			id: "19C944C83B8A6277"
+			tasks: [{
+				id: "474A89A371959297"
+				item: "projectexpansion:yellow_fuel"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19C944C83B8A6277"]
+			id: "2088CA48008FA0EC"
+			tasks: [{
+				id: "49C711C7AE07189A"
+				item: "projectexpansion:orange_fuel"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2088CA48008FA0EC"]
+			id: "1862A01EAEAC054A"
+			tasks: [{
+				id: "6BE29874F75847A0"
+				item: "projectexpansion:white_fuel"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C95F65F467FFB73"]
+			id: "58E405150A196E66"
+			tasks: [{
+				id: "0D1404CF70231ABE"
+				item: "projecte:nova_catalyst"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2945E185701E9794"]
+			id: "71C2696CA7548175"
+			rewards: [{
+				count: 3
+				id: "5309142EC9F2DA46"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A61EA304E866039"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_ein"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["71C2696CA7548175"]
+			id: "6C10BA6E67B56F16"
+			rewards: [{
+				count: 3
+				id: "2D2F4BE6A58C68E5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "752817BBDAD15590"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_zwei"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6C10BA6E67B56F16"]
+			id: "311A0E30CA8FF167"
+			rewards: [{
+				count: 3
+				id: "0F0A674A119EC4A0"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A3A04D342EFD79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_drei"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["311A0E30CA8FF167"]
+			id: "4B4472F9931E8074"
+			rewards: [{
+				count: 3
+				id: "6BD0DD450B99D2EC"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A365E9967F34E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_vier"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4B4472F9931E8074"]
+			id: "7767D34DDF224ED2"
+			rewards: [{
+				count: 3
+				id: "26CA1102C6531E7E"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "671002C77B7C52A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_sphere"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7767D34DDF224ED2"]
+			id: "1B01DEA41994A974"
+			rewards: [{
+				count: 3
+				id: "426C238A98246F75"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5505C3E0E9021A1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_omega"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1B01DEA41994A974"]
+			id: "327F56A5CE2E8C3C"
+			rewards: [{
+				count: 3
+				id: "7CD232B87DFB0A69"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4363DDA83E3D1892"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_ein"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["327F56A5CE2E8C3C"]
+			id: "2DAA18361875D726"
+			rewards: [{
+				count: 3
+				id: "27F1D5B7ABA8B3D8"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5000315138D761F6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_zwei"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2DAA18361875D726"]
+			id: "02FEA4B7E5DB8CBD"
+			rewards: [{
+				count: 3
+				id: "4D0AAB31D0AC512D"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B91AC39AB8F945B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_drei"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["02FEA4B7E5DB8CBD"]
+			id: "79ADAEB1B8B2939C"
+			rewards: [{
+				count: 3
+				id: "447A1DF2A3231556"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26B0DAFE46A8AE1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_vier"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["79ADAEB1B8B2939C"]
+			id: "084889636C6AB16F"
+			rewards: [{
+				count: 3
+				id: "3249EA16E4653594"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10087250943F2270"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_sphere"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["084889636C6AB16F"]
+			id: "72B3881352B65418"
+			rewards: [{
+				count: 3
+				id: "34ED9209F1C48EE3"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D523E510C1DE537"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_omega"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["13AB4C5ABFE8C702"]
+			id: "18480D6227D70A94"
+			tasks: [{
+				id: "28677FEBED7AB798"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_zwei"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["18480D6227D70A94"]
+			id: "634B1C7787B468D1"
+			tasks: [{
+				id: "6265645F4A2E9F20"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_drei"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["634B1C7787B468D1"]
+			id: "007EBCC84C208F3C"
+			tasks: [{
+				id: "1D2C6A31B5F01ACC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_vier"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["007EBCC84C208F3C"]
+			id: "398552D15BDFCFE4"
+			tasks: [{
+				id: "1EEEC7D71F741DE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_sphere"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["72B3881352B65418"]
+			id: "1CD06EB31301CFCF"
+			tasks: [{
+				id: "2212E98953583E3C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_ein"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1CD06EB31301CFCF"]
+			id: "0461EAD666A265AD"
+			tasks: [{
+				id: "02F6DE2E68FD473A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_zwei"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0461EAD666A265AD"]
+			id: "4D7A0A9971B85D5B"
+			tasks: [{
+				id: "61C2B2F86FBCC823"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_drei"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4D7A0A9971B85D5B"]
+			id: "775110778D35867E"
+			tasks: [{
+				id: "1BC898AA5F5BE009"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_vier"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["775110778D35867E"]
+			id: "3CC18E6429F47C0B"
+			tasks: [{
+				id: "46145BD998EB7886"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_sphere"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3CC18E6429F47C0B"]
+			id: "7C95AD517A3991EA"
+			tasks: [{
+				id: "41724BBC0BE70D4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_omega"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["63FAF6BEB61ED213"]
+			id: "7A604AD4913E6C88"
+			tasks: [{
+				id: "616B62A0D170457E"
+				item: "projectexpansion:infinite_steak"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			id: "0412CA04D0C102C5"
+			tasks: [
+				{
+					id: "4E2C05FD044DA962"
+					item: "projecte:low_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "706D16168C960F1E"
+					item: "projecte:medium_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "10EE40A35FA1A455"
+					item: "projecte:high_covalence_dust"
+					type: "item"
+				}
+			]
+			title: "共价粉"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0412CA04D0C102C5"
+				"63FAF6BEB61ED213"
+			]
+			hide_dependency_lines: true
+			id: "54157249E8B845B0"
+			tasks: [{
+				id: "677B93F3F69021F9"
+				item: "projectexpansion:basic_emc_link"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C5FD47AA2462D04"]
+			hide_dependency_lines: true
+			id: "6F61DA2C8BD516D5"
+			tasks: [{
+				id: "6A061A20C8776BC0"
+				item: "projectexpansion:basic_relay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C5FD47AA2462D04"]
+			hide_dependency_lines: true
+			id: "3B31B2E3AC72635B"
+			tasks: [{
+				id: "2D5B92771C01CE18"
+				item: "projectexpansion:basic_collector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15904D70907924CC"]
+			id: "5D208880415C2617"
+			tasks: [{
+				id: "0712E807B35DA441"
+				item: "projectexpansion:dark_emc_link"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15904D70907924CC"]
+			id: "679EA9DE22BCCF13"
+			tasks: [{
+				id: "14A00B8447269999"
+				item: "projectexpansion:dark_relay"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15904D70907924CC"]
+			id: "786082216E5A0612"
+			tasks: [{
+				id: "686B8A01E3B014F4"
+				item: "projectexpansion:dark_collector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04F8A966CAD0296B"]
+			id: "22B195FA60C162F2"
+			tasks: [{
+				id: "6A7C919CC684E7F1"
+				item: "projectexpansion:red_emc_link"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04F8A966CAD0296B"]
+			id: "76F3FE7BF587EAAC"
+			tasks: [{
+				id: "36E67353EF641364"
+				item: "projectexpansion:red_relay"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04F8A966CAD0296B"]
+			id: "40745D6734907EBC"
+			tasks: [{
+				id: "15C9400B5DB9B22A"
+				item: "projectexpansion:red_collector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["133A84C3400AA826"]
+			id: "7292E0CE24B06A10"
+			tasks: [{
+				id: "10E5A0145136AF61"
+				item: "projectexpansion:magenta_emc_link"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["133A84C3400AA826"]
+			id: "1EF101A55CF9E882"
+			tasks: [{
+				id: "7CAF6B63D47A9E5C"
+				item: "projectexpansion:magenta_relay"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["133A84C3400AA826"]
+			id: "7C2CA3A4A9D85D64"
+			tasks: [{
+				id: "58675BAE3628377E"
+				item: "projectexpansion:magenta_collector"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0EAE9E9D80750C9F"]
+			id: "199C9C3B0E0026D0"
+			tasks: [{
+				id: "780A9D0B02EAD2B8"
+				item: "projectexpansion:pink_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EAE9E9D80750C9F"]
+			id: "0E975AC684BFBA0F"
+			tasks: [{
+				id: "5EF957625833CD92"
+				item: "projectexpansion:pink_relay"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EAE9E9D80750C9F"]
+			id: "1A83665E7FFDF52E"
+			tasks: [{
+				id: "211A0855939EF318"
+				item: "projectexpansion:pink_collector"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F444E5DC125A655"]
+			id: "134943AA0A89B42E"
+			tasks: [{
+				id: "3477EF3CD44AF4C8"
+				item: "projectexpansion:purple_emc_link"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7FD7D04CCEE05B9E"]
+			id: "7B86A290F33D9279"
+			tasks: [{
+				id: "352AFAB732B733F9"
+				item: "projectexpansion:violet_emc_link"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F36A1FDDB1BC598"]
+			id: "71DF49A5F36CA716"
+			tasks: [{
+				id: "24BB77C6DED249B1"
+				item: "projectexpansion:blue_emc_link"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F36A1FDDB1BC598"]
+			id: "431F8794B4DFDE74"
+			tasks: [{
+				id: "20BF355795A3609C"
+				item: "projectexpansion:blue_relay"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FD7D04CCEE05B9E"]
+			id: "4A04555688B7428D"
+			tasks: [{
+				id: "4C1A477F815D857A"
+				item: "projectexpansion:violet_relay"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F444E5DC125A655"]
+			id: "1D26E7A048552148"
+			tasks: [{
+				id: "53C901F0B2315D49"
+				item: "projectexpansion:purple_relay"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F444E5DC125A655"]
+			id: "0D749C6662954AE2"
+			tasks: [{
+				id: "546FB82775DDF4A0"
+				item: "projectexpansion:purple_collector"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FD7D04CCEE05B9E"]
+			id: "13E655284A6BCC00"
+			tasks: [{
+				id: "3D9B23C52EFE7982"
+				item: "projectexpansion:violet_collector"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F36A1FDDB1BC598"]
+			id: "79427284A46C6878"
+			tasks: [{
+				id: "092ACA1224B4296D"
+				item: "projectexpansion:blue_collector"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44DFEC7A444C6ED8"]
+			id: "3F8219DB3ADE390E"
+			tasks: [{
+				id: "76B58CF90DCE663B"
+				item: "projectexpansion:lime_emc_link"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F5B8630CC83AE99"]
+			id: "1F6A0C24AA033E14"
+			tasks: [{
+				id: "07CC16069E751830"
+				item: "projectexpansion:green_emc_link"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["475A8F63DF2C454E"]
+			id: "414FF839F110E4C4"
+			tasks: [{
+				id: "10C2E9C573BB575E"
+				item: "projectexpansion:cyan_emc_link"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44DFEC7A444C6ED8"]
+			id: "5DBFF065E7EA8D0F"
+			tasks: [{
+				id: "750EB819A4796985"
+				item: "projectexpansion:lime_relay"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F5B8630CC83AE99"]
+			id: "5B296EF90FC955DC"
+			tasks: [{
+				id: "1C2EC0B198920B7D"
+				item: "projectexpansion:green_relay"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["475A8F63DF2C454E"]
+			id: "7EADB66E291159A1"
+			tasks: [{
+				id: "068B9245251AAC9A"
+				item: "projectexpansion:cyan_relay"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44DFEC7A444C6ED8"]
+			id: "2BFEC71124D97DF1"
+			tasks: [{
+				id: "4151CF690DB13EEB"
+				item: "projectexpansion:lime_collector"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F5B8630CC83AE99"]
+			id: "2C03843B563FF139"
+			tasks: [{
+				id: "345425AA15DD184D"
+				item: "projectexpansion:green_collector"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["475A8F63DF2C454E"]
+			id: "656AF3EEC0D21A04"
+			tasks: [{
+				id: "66077BB782C64FB8"
+				item: "projectexpansion:cyan_collector"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["344DFB757013D8DA"]
+			id: "2AEC7296DA46529D"
+			tasks: [{
+				id: "306CB0BAE069EF2D"
+				item: "projectexpansion:white_emc_link"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A6FDA2A91F1097C"]
+			id: "3055120E2F5CC509"
+			tasks: [{
+				id: "5653B80A6ADB71CB"
+				item: "projectexpansion:orange_emc_link"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33126965E8001003"]
+			id: "1D63A4B426903B2F"
+			tasks: [{
+				id: "6D004D48FEFE36CB"
+				item: "projectexpansion:yellow_emc_link"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["344DFB757013D8DA"]
+			id: "0235DCF01A955E15"
+			tasks: [{
+				id: "3EB9C638FC6A4F9D"
+				item: "projectexpansion:white_relay"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A6FDA2A91F1097C"]
+			id: "28B04ADAD44FDD81"
+			tasks: [{
+				id: "61F20D84B046F72D"
+				item: "projectexpansion:orange_relay"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33126965E8001003"]
+			id: "564012B21B1D1588"
+			tasks: [{
+				id: "0A38B2B43EAB639A"
+				item: "projectexpansion:yellow_relay"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["344DFB757013D8DA"]
+			id: "7B295D0BACA7CE86"
+			tasks: [{
+				id: "3EEB020DE989B9E2"
+				item: "projectexpansion:white_collector"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A6FDA2A91F1097C"]
+			id: "37B2D572CC4B40E2"
+			tasks: [{
+				id: "24D42024536704C9"
+				item: "projectexpansion:orange_collector"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33126965E8001003"]
+			id: "2C96F2FFFFBC6AD2"
+			tasks: [{
+				id: "1AC99BE704C5BBAE"
+				item: "projectexpansion:yellow_collector"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A1F3D60490DB8DA"]
+			id: "4062FA64B8DBD595"
+			tasks: [{
+				id: "4084E78FC1E752E3"
+				item: "projectexpansion:fading_emc_link"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A1F3D60490DB8DA"]
+			id: "65623C975C78ED35"
+			tasks: [{
+				id: "7C9C63F025DD0950"
+				item: "projectexpansion:fading_relay"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A1F3D60490DB8DA"]
+			id: "7890502C1A25377B"
+			tasks: [{
+				id: "2A5F73CAC0F421D1"
+				item: "projectexpansion:fading_collector"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51280982A8200067"]
+			id: "5F59820A45C78EC7"
+			tasks: [{
+				id: "4C1200EE7E38313B"
+				item: "projectexpansion:final_emc_link"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51280982A8200067"]
+			id: "510826A05995DEB2"
+			tasks: [{
+				id: "6B07BDFAA6D78129"
+				item: "projectexpansion:final_relay"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51280982A8200067"]
+			id: "1B91D3267AE0CFBE"
+			tasks: [{
+				id: "40BC7EADB5BD1AD6"
+				item: "projectexpansion:final_collector"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B31B2E3AC72635B"]
+			id: "1A02D71023501D31"
+			tasks: [{
+				id: "4F8B99B188BA887E"
+				item: "projectexpansion:basic_compressed_collector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["786082216E5A0612"]
+			id: "72B341C24ADA9656"
+			tasks: [{
+				id: "15C13EE5A36A809C"
+				item: "projectexpansion:dark_compressed_collector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40745D6734907EBC"]
+			id: "5ADCA339C67C8D25"
+			tasks: [{
+				id: "251CE990B8182522"
+				item: "projectexpansion:red_compressed_collector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C2CA3A4A9D85D64"]
+			id: "3948145E17353ADC"
+			tasks: [{
+				id: "7906335BAF76D58C"
+				item: "projectexpansion:magenta_compressed_collector"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1A83665E7FFDF52E"]
+			id: "7586A4AC1365BC6B"
+			tasks: [{
+				id: "3B8B911C188B1A55"
+				item: "projectexpansion:pink_compressed_collector"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D749C6662954AE2"]
+			id: "09C08EDD63BEA086"
+			tasks: [{
+				id: "6C36855C219896DA"
+				item: "projectexpansion:purple_compressed_collector"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13E655284A6BCC00"]
+			id: "2FD75AC5B549ABCB"
+			tasks: [{
+				id: "4BE3758EFA9B4B6A"
+				item: "projectexpansion:violet_compressed_collector"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79427284A46C6878"]
+			id: "50F14BED5B08E766"
+			tasks: [{
+				id: "144ACDCCACCB1448"
+				item: "projectexpansion:blue_compressed_collector"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["656AF3EEC0D21A04"]
+			id: "21FA7A935F427D88"
+			tasks: [{
+				id: "6D534FF53AA1D760"
+				item: "projectexpansion:cyan_compressed_collector"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C03843B563FF139"]
+			id: "2C02CA84F88AABE9"
+			tasks: [{
+				id: "7A1FFEE0CB184AC3"
+				item: "projectexpansion:green_compressed_collector"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2BFEC71124D97DF1"]
+			id: "40479DE59DF9E1D0"
+			tasks: [{
+				id: "3FDBCEBDC5B265F4"
+				item: "projectexpansion:lime_compressed_collector"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C96F2FFFFBC6AD2"]
+			id: "3F4AD493D44849A6"
+			tasks: [{
+				id: "2C1DCB6BFD2CEA5E"
+				item: "projectexpansion:yellow_compressed_collector"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37B2D572CC4B40E2"]
+			id: "7A87FAEF48B2B815"
+			tasks: [{
+				id: "3F662CBD78F11B9D"
+				item: "projectexpansion:orange_compressed_collector"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B295D0BACA7CE86"]
+			id: "6BB1E14D6F4FE5A3"
+			tasks: [{
+				id: "3DF4AC3A62640150"
+				item: "projectexpansion:white_compressed_collector"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7890502C1A25377B"]
+			id: "02B0CA8B3F84A386"
+			tasks: [{
+				id: "43E14BDFD11B2A9D"
+				item: "projectexpansion:fading_compressed_collector"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B91D3267AE0CFBE"]
+			id: "5A47013710E3C676"
+			tasks: [{
+				id: "198719047BE0EBF1"
+				item: "projectexpansion:final_compressed_collector"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1A02D71023501D31"
+				"6F61DA2C8BD516D5"
+				"54157249E8B845B0"
+			]
+			id: "4CDF73AC0974CDA3"
+			rewards: [{
+				count: 3
+				id: "7534DB52769FADDF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49510F6F0351DB90"
+				item: "projectexpansion:basic_power_flower"
+				type: "item"
+			}]
+			title: "第一个盆栽"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"72B341C24ADA9656"
+				"679EA9DE22BCCF13"
+				"5D208880415C2617"
+			]
+			id: "58EBF4FE0F16D8D3"
+			rewards: [{
+				count: 3
+				id: "778F50B30AD23CDA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AB4FDD57B64CD96"
+				item: "projectexpansion:dark_power_flower"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5ADCA339C67C8D25"
+				"76F3FE7BF587EAAC"
+				"22B195FA60C162F2"
+			]
+			id: "68303AC07C18098C"
+			rewards: [{
+				count: 3
+				id: "0C2A0ABCC24DB28B"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5500C106D13CEFD1"
+				item: "projectexpansion:red_power_flower"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3948145E17353ADC"
+				"1EF101A55CF9E882"
+				"7292E0CE24B06A10"
+			]
+			id: "3BFE5BFE4EC7C400"
+			rewards: [{
+				count: 3
+				id: "07547D5490D034A4"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1155CEFB52A79307"
+				item: "projectexpansion:magenta_power_flower"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0E975AC684BFBA0F"
+				"7586A4AC1365BC6B"
+				"199C9C3B0E0026D0"
+			]
+			id: "7F72CDA3895E65B3"
+			rewards: [{
+				count: 3
+				id: "4926CA924CA417A8"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10B5C3F4949493D1"
+				item: "projectexpansion:pink_power_flower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"134943AA0A89B42E"
+				"09C08EDD63BEA086"
+				"1D26E7A048552148"
+			]
+			id: "1933CD9FBB9EA551"
+			rewards: [{
+				count: 3
+				id: "1CC6E44E83AC39B4"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6098F68F169AC573"
+				item: "projectexpansion:purple_power_flower"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2FD75AC5B549ABCB"
+				"7B86A290F33D9279"
+				"4A04555688B7428D"
+			]
+			id: "6D67DAA742359028"
+			rewards: [{
+				count: 3
+				id: "4311DDE340B3DF53"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "560907CFD5083866"
+				item: "projectexpansion:violet_power_flower"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"71DF49A5F36CA716"
+				"431F8794B4DFDE74"
+				"50F14BED5B08E766"
+			]
+			id: "5F1CBE152B8F16DB"
+			rewards: [{
+				count: 3
+				id: "35DF313D259E4E53"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C1DD0E1864BA214"
+				item: "projectexpansion:blue_power_flower"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"414FF839F110E4C4"
+				"7EADB66E291159A1"
+				"21FA7A935F427D88"
+			]
+			id: "7BD83735C7F1ADED"
+			rewards: [{
+				count: 3
+				id: "139098868E5A9A0E"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26C990ADA767C897"
+				item: "projectexpansion:cyan_power_flower"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5B296EF90FC955DC"
+				"2C02CA84F88AABE9"
+				"1F6A0C24AA033E14"
+			]
+			id: "5D03F5055FF424D5"
+			rewards: [{
+				count: 3
+				id: "16A287B1E69A9DDA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A717E72AC56D183"
+				item: "projectexpansion:green_power_flower"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3F8219DB3ADE390E"
+				"40479DE59DF9E1D0"
+				"5DBFF065E7EA8D0F"
+			]
+			id: "05D2E36A11BB352D"
+			rewards: [{
+				count: 3
+				id: "48A0D26D4539E1A0"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "546477AF7E7F8DD7"
+				item: "projectexpansion:lime_power_flower"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"564012B21B1D1588"
+				"3F4AD493D44849A6"
+				"1D63A4B426903B2F"
+			]
+			id: "613AB5D9BDEE0D95"
+			rewards: [{
+				count: 3
+				id: "60EA695FFD79E251"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33216B3463065E3A"
+				item: "projectexpansion:yellow_power_flower"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"28B04ADAD44FDD81"
+				"3055120E2F5CC509"
+				"7A87FAEF48B2B815"
+			]
+			id: "14DD4D0D2C7BC143"
+			rewards: [{
+				count: 3
+				id: "644C0F99F3F31B46"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C797D71A101CE9"
+				item: "projectexpansion:orange_power_flower"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6BB1E14D6F4FE5A3"
+				"2AEC7296DA46529D"
+				"0235DCF01A955E15"
+			]
+			id: "39AB1B733D6839E9"
+			rewards: [{
+				count: 3
+				id: "3227221740C5BFA8"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4661DB505BC5B9CD"
+				item: "projectexpansion:white_power_flower"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"65623C975C78ED35"
+				"4062FA64B8DBD595"
+				"02B0CA8B3F84A386"
+			]
+			id: "532D6A5A4D862AED"
+			rewards: [{
+				count: 3
+				id: "515A28296EEBABCD"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E928920CE91229E"
+				item: "projectexpansion:fading_power_flower"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5F59820A45C78EC7"
+				"5A47013710E3C676"
+				"510826A05995DEB2"
+			]
+			id: "66B78380CE09CCD2"
+			rewards: [{
+				count: 10
+				id: "3786B933117A2010"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0391BDC96A338A7E"
+				item: "projectexpansion:final_power_flower"
+				type: "item"
+			}]
+			title: "终极盆栽"
+			x: 25.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66B78380CE09CCD2"]
+			id: "06020C6B23E5A000"
+			rewards: [{
+				count: 5
+				id: "4BB4451FE4081A92"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B04482A80B7C12E"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06020C6B23E5A000"]
+			id: "4E54AE319D32F1C3"
+			rewards: [{
+				count: 5
+				id: "17C645798EAC1C1A"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EE79127CAB989DB"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			title: "\\O/\\O/\\O/ 将军！！"
+			x: 25.5d
+			y: 8.0d
+		}
+	]
+	title: "Chapter 1: 炼金术士"
+}

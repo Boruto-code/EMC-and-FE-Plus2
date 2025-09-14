@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "emc_and_fe"
+	group: ""
+	icon: "projecte:transmutation_table"
+	id: "2A80DFBA858D98CE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: "projecte:transmutation_tablet"
+			id: "0480E962754E9B2A"
+			rewards: [{
+				id: "3E4001876A1057C0"
+				item: "botania:cosmetic_pink_flower_bud"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "欢迎！"
+			tasks: [{
+				id: "6816FD82AF43E6B8"
+				title: "EMC and FE ++"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: ["&c官方 QQ 交流群：224133726"]
+			icon: "mekanism:network_reader"
+			id: "0F17098159F8770F"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "75748957AACC638C"
+				title: "官方QQ群"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: ["进入 https://github.com/Boruto-code/EMC-and-FE-Plus2/issues"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: {
+								charge_armor: {
+									hud: 1b
+								}
+								charge_curios: {
+									hud: 1b
+								}
+								charge_held_item: {
+									hud: 1b
+								}
+								charge_hot_bar: {
+									hud: 1b
+								}
+								charge_main: {
+									hud: 1b
+								}
+							}
+							provider_id: [I;
+								483956970
+								214910670
+								-1731788245
+								-1568379435
+							]
+						}
+					}
+				}
+				id: "draconicevolution:creative_capacitor"
+			}
+			id: "4015AE9303EB7392"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2B42B6807CFF5A7D"
+				title: "Bug反馈"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"1. 龙之研究与 Embeddium 冲突"
+				"现象：龙之研究的部分物品无渲染"
+				"解决方法：按 F3+T 重载资源包"
+			]
+			icon: "create:wrench"
+			id: "73CA6DE70F53C16D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "777ABBF879B6BB19"
+				title: "Bug提示"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+	]
+	title: "EMC and FE ++"
+}

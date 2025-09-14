@@ -1,0 +1,11 @@
+{
+	empty_weight: 1.0f
+	id: "53089AFC348A3599"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "kubejs:netherite_coin" }
+		{ count: 2, item: "kubejs:netherite_coin" }
+	]
+	title: "下界合金币抽奖"
+}

@@ -1,0 +1,418 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "47AC8201A00D1D91"
+	group: "7FABB2F7E5BB8366"
+	icon: "avaritia:infinity_helmet"
+	id: "47AC8201A00D1D91"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1D54015DD0785801"]
+			id: "0E4CDB42ACF9B201"
+			rewards: [{
+				count: 5
+				id: "011AD9F9F21AEFAB"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA93FBB137E9A7B"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			title: "超大配方"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["354689FEA6FEC457"]
+			id: "686ABE8931118D03"
+			rewards: [{
+				count: 10
+				id: "5AA8527CA2AAD914"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E82CEEA22CA3B5A"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "致密物质"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686ABE8931118D03"]
+			id: "159F74D12C31E46B"
+			rewards: [{
+				count: 5
+				id: "0786372F9A493CB7"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06C966A2B1159718"
+				item: "avaritia:neutron_compressor"
+				type: "item"
+			}]
+			title: "超级液压机"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["159F74D12C31E46B"]
+			id: "3B9F90ECAA2D07B0"
+			rewards: [{
+				count: 5
+				id: "33C20FBB86FACB35"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01289F5D409BFE59"
+				item: {
+					Count: 1
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:iron"
+					}
+				}
+				type: "item"
+			}]
+			title: "铁精"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "214A245E88773B64"
+			rewards: [{
+				count: 10
+				id: "5F4B9E45A546D3A7"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5126D3E0931DDCA9"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+				{
+					id: "50B4E9C6E7A56DE7"
+					item: "avaritia:cosmic_meatballs"
+					type: "item"
+				}
+			]
+			title: "吃不下了"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"214A245E88773B64"
+				"3B9F90ECAA2D07B0"
+			]
+			id: "1D5A6AEC11018451"
+			rewards: [{
+				count: 15
+				id: "281323EE279F3A34"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D3E313D3AE65D72"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			title: "星光"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D5A6AEC11018451"]
+			id: "4E05660FBFB41795"
+			rewards: [{
+				count: 20
+				id: "26820386CAF45110"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A949C183310F34"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			title: "闪光"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "7038DB9B92563C7B"
+			rewards: [{
+				count: 3
+				id: "17274D5F50A5CB61"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60AFF8E46AA4D05C"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			title: "秒杀"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "18B52D7A4FA92A00"
+			tasks: [
+				{
+					id: "2483EF25FC2368B5"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "4DFFC4A0B19C3BC4"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "3BA3A78DA03CB7B8"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "2A59424153181BBA"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
+			title: "无尽套装"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "4C8C10E8AEA728D9"
+			rewards: [{
+				count: 3
+				id: "743CC34420CE3BD9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6157A5D0F5FC9165"
+				item: "avaritia:infinity_bow"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "0D9AF5EC401E7D2E"
+			rewards: [{
+				count: 3
+				id: "7EDB65FCE8E6BB13"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0722D40434D9B885"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_pickaxe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "785F5CEB1C468512"
+			rewards: [{
+				count: 3
+				id: "1E4BDC5E4033BDB4"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44C7CADF69F9B07C"
+				item: "avaritia:infinity_hoe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "3980B2B4F7538358"
+			rewards: [{
+				count: 3
+				id: "1595D9B391B60FE2"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "596AA9B9CF9D174F"
+				item: "avaritia:infinity_crossbow"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "0CF3997AB6517DC1"
+			rewards: [{
+				count: 3
+				id: "0F8382EA87F87B43"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D28F8443969915D"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "12A6B5CE68F747BF"
+			rewards: [{
+				count: 3
+				id: "701064CBCE3B80E6"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F2062BDDC4208FD"
+				item: "avaritia:infinity_axe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "267F05E4ADF78BC1"
+			rewards: [{
+				count: 3
+				id: "37FE88BB4224BCDF"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61E4F9A190E0D206"
+				item: "avaritia:infinity_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4E05660FBFB41795"]
+			id: "4BD0125941257008"
+			rewards: [{
+				count: 3
+				id: "1EF536A2BB108366"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42707C99C99CF58E"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0E4CDB42ACF9B201"]
+			id: "354689FEA6FEC457"
+			rewards: [{
+				count: 3
+				id: "553D48840BB9FADD"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13EBDC866F687DA9"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34614BE4AC1B919C"]
+			id: "1D54015DD0785801"
+			rewards: [{
+				count: 3
+				id: "0F9E401418B45ACC"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C7D0BEC79058D42"
+				item: "avaritia:end_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AD3B375598B86D3"]
+			id: "34614BE4AC1B919C"
+			rewards: [{
+				count: 3
+				id: "43B54C797236DD1A"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35FE95A14B1C8003"
+				item: "avaritia:nether_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "0AD3B375598B86D3"
+			rewards: [{
+				count: 3
+				id: "5910836138E2EEC9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4682F5212C2E4A20"
+				item: "avaritia:sculk_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+	title: "Chapter 2: 无尽贪婪"
+}

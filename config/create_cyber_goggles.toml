@@ -1,0 +1,31 @@
+[goggles]
+enhancedInfo = true
+hideStaticKineticInfo = false
+enhancedStoreRender = true
+renderExtraItems = true
+enableKineticEffect = true
+preciseNumbers = true
+disableScreenGoggles = true
+[gameMode]
+enableInSurvival = true
+enableInCreative = true
+enableInSpectator = true
+enableInAdventure = true
+[chainConveyor]
+alwaysAllowRiding = false
+preventFalling = false
+enhancedConnection = true
+cardBoardedYourself = false
+[armor]
+removeBoxOverlay = true
+removeNetheriteFirstPerson = false
+removeDivingBootsAffect = false
+[wrench]
+alwaysAllowRotating = false
+removeCooldown = true
+[other]
+rightClickPenetrate = false
+rainbowDebug = false
+forcedBackend = false
+nonrandomScrap = true
+nbtFix = false

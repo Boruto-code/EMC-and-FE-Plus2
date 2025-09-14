@@ -1,0 +1,345 @@
+{
+    "mekanism.generators.client.gui.GuiIndustrialTurbine": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.GUITransmutation": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            }
+        }
+    },
+    "mekanism.client.gui.GuiChemicalTank": {
+        "ignore": true
+    },
+    "mekanism.generators.client.gui.GuiFissionReactor": {
+        "ignore": true
+    },
+    "gripe._90.appliede.client.screen.TransmutationTerminalScreen": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiWirelessConnector": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.AlchBagScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 26,
+                "bottom": -16
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -18
+            },
+            "SORT": {
+                "top": -18
+            },
+            "SORT_COLUMNS": {
+                "top": -18
+            },
+            "SORT_ROWS": {
+                "top": -18
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 45
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 30
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CraftingScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 44
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 29
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiElectricMachine": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 44
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 29
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.AlchChestScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 44
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 29
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 26,
+                "bottom": -16
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 2,
+                "top": -15
+            },
+            "SORT": {
+                "horizontalOffset": 2,
+                "top": -15
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 2,
+                "top": -15
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 2,
+                "top": -15
+            }
+        }
+    },
+    "com.tacz.guns.client.gui.GunSmithTableScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.GUIDMFurnace": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -17,
+                "bottom": -13
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -15
+            },
+            "SORT": {
+                "top": -15
+            },
+            "SORT_COLUMNS": {
+                "top": -15
+            },
+            "SORT_ROWS": {
+                "top": -15
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 44
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 29
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenAspectSettings": {
+        "ignore": true
+    },
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.GUIRMFurnace": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "top": -14
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            }
+        }
+    },
+    "committee.nova.mods.avaritia.client.screen.craft.ExtremeCraftScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 8,
+                "bottom": -8
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            }
+        }
+    },
+    "committee.nova.mods.avaritia.client.screen.NeutronCollectorScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiRotaryCondensentrator": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.client.gui.FusionCraftingCoreGui$Screen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            }
+        }
+    },
+    "com.brandon3055.draconicevolution.client.gui.EnergyCoreGui$Screen": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiSPS": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalCrystallizer": {
+        "ignore": true
+    },
+    "de.maxhenkel.pipez.gui.ExtractScreen": {
+        "ignore": true
+    },
+    "thelm.packagedavaritia.client.screen.ExtremeCrafterScreen": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExPatternProvider": {
+        "ignore": true
+    },
+    "committee.nova.mods.avaritia.client.screen.InfinityChestScreen": {
+        "ignore": true
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            }
+        }
+    },
+    "thelm.packageddraconic.client.screen.FusionCrafterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.AlloySmelterScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 43
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 28
+            }
+        }
+    },
+    "mekanism.client.gui.GuiEnergyCube": {
+        "ignore": true
+    },
+    "org.cyclops.integratedtunnels.core.part.ContainerScreenInterfaceSettings": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.pattern.GuiProcessingPattern": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiFluidTank": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.ReactorControllerScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            }
+        }
+    },
+    "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 301,
+                "bottom": -220
+            },
+            "SORT": {
+                "bottom": -241
+            },
+            "SORT_COLUMNS": {
+                "bottom": -172
+            },
+            "SORT_ROWS": {
+                "bottom": -192
+            },
+            "CONTINUOUS_CRAFTING": {
+                "bottom": -220
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 620,
+                "top": 340
+            },
+            "SETTINGS": {
+                "horizontalOffset": -9,
+                "top": 340
+            }
+        }
+    }
+}
