@@ -1,0 +1,11 @@
+{
+	empty_weight: 1.0f
+	id: "35226CE5C029D23D"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "kubejs:diamond_coin" }
+		{ count: 2, item: "kubejs:diamond_coin" }
+	]
+	title: "钻石币抽奖"
+}

@@ -1,0 +1,371 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08AD58C5144B7BB4"
+	group: "7FABB2F7E5BB8366"
+	icon: "draconicevolution:dragon_heart"
+	id: "08AD58C5144B7BB4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2A3A68C5DB4CDFA7"
+			rewards: [{
+				count: 3
+				id: "4C3927CDEAE206DD"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47C143327396990A"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			title: "心脏"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["491CBC27E0C2F9BA"]
+			id: "5BD9590521E51E46"
+			rewards: [{
+				count: 8
+				id: "64BC2657E862F9C8"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4EACD5DA9F341B82"
+					item: "draconicevolution:basic_io_crystal"
+					type: "item"
+				}
+				{
+					id: "6EA5B5F646A56EF0"
+					item: "draconicevolution:crystal_binder"
+					type: "item"
+				}
+			]
+			title: "电力"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25E5DDAA9B6E220A"]
+			id: "3F4C17A403BD2A33"
+			rewards: [{
+				count: 5
+				id: "1900000F05DC0186"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "555E4FC75BE78FBC"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			title: "混沌"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6262C18B156A9D63"
+				"4C0C6301FDDE4053"
+			]
+			id: "37755812257ABF4E"
+			rewards: [{
+				count: 10
+				id: "7D2BE8F6EBFED826"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61789F64BB355270"
+				item: "draconicevolution:reactor_core"
+				type: "item"
+			}]
+			title: "混沌之球"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"428B96BEF7412B29"
+				"6686518D4A50ECD4"
+			]
+			description: ["&l混沌守卫&r在DE的进程中是不可或缺的。在旅行5000格后，你会遇到第一个混沌守卫。使用武器攻击一下，会发现它无法受到伤害。需要先破坏水晶，站在水晶旁，引诱混沌守卫的攻击。攻击到水晶有类似烟花的粒子时，即可打爆水晶。引爆所有水晶后，即可使用武器攻击混沌守卫。击杀后可以向下挖掘，发现混沌水晶，使用镐子挖掘（不要用无尽镐），即可掉落混沌碎片。"]
+			id: "25E5DDAA9B6E220A"
+			rewards: [{
+				count: 64
+				id: "06F7126413541E06"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				icon: "draconicevolution:chaotic_core"
+				id: "66101A08C71BE739"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7544F14DB4E6B9C3"]
+			id: "428B96BEF7412B29"
+			rewards: [{
+				count: 5
+				id: "2943263A94174429"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B5D803F5C04A74"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									510928580
+									-1471659441
+									-1980522021
+									1834851317
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_sword"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7544F14DB4E6B9C3"]
+			id: "6686518D4A50ECD4"
+			rewards: [{
+				count: 5
+				id: "40FC8C8CC983B857"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A223E5071293D35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-1052933844
+									740771811
+									-2141950064
+									-705096950
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_bow"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DCD72333B58E9CE"]
+			id: "4C5B64A51D7E30B2"
+			rewards: [{
+				count: 5
+				id: "118466DCC0B768CC"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22C6040420144DE9"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C5B64A51D7E30B2"]
+			id: "7544F14DB4E6B9C3"
+			rewards: [{
+				count: 3
+				id: "7660B29E3E466E25"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50A3FAFDEC6F3EB0"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BD9590521E51E46"]
+			id: "2DCD72333B58E9CE"
+			rewards: [{
+				count: 3
+				id: "65C64F2D0656DEE3"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42FBD85742E929BF"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BD9590521E51E46"]
+			id: "094B78E20187C9AF"
+			rewards: [{
+				count: 20
+				id: "66E0B233B27D7A61"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "21D682F20FEA2018"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					id: "7FAC909BCBB54945"
+					item: "draconicevolution:energy_pylon"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F4C17A403BD2A33"]
+			id: "6262C18B156A9D63"
+			tasks: [{
+				id: "2EF748162A1C6CD3"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2A3A68C5DB4CDFA7"]
+			id: "491CBC27E0C2F9BA"
+			rewards: [{
+				count: 5
+				id: "4A848BE7CCCDF441"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59A82E8DF0993315"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6262C18B156A9D63"]
+			id: "4C0C6301FDDE4053"
+			tasks: [{
+				id: "35427FAEA5C1729C"
+				item: "draconicevolution:reactor_stabilizer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4C0C6301FDDE4053"
+				"6262C18B156A9D63"
+				"37755812257ABF4E"
+			]
+			id: "0A82073AED228926"
+			tasks: [{
+				id: "547887010E3E9379"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									2023491803
+									-1598274904
+									-1655038472
+									-1371895137
+								]
+							}
+						}
+					}
+					id: "draconicevolution:creative_capacitor"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4C0C6301FDDE4053"
+				"37755812257ABF4E"
+				"0A82073AED228926"
+			]
+			id: "51DD0F246CAB7EC9"
+			tasks: [{
+				id: "497201F7101E834E"
+				item: "draconicevolution:creative_op_capacitor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+	]
+	title: "Chapter 4: 传说之龙"
+}

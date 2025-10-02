@@ -1,0 +1,21 @@
+{
+    "thelm.packagedauto.client.screen.EncoderScreen": {
+        "playerSideOnly": true
+    },
+    "thelm.packagedauto.client.screen.PackagerScreen": {
+        "ignore": true,
+        "playerSideOnly": true
+    },
+    "thelm.packagedauto.client.screen.PackagerExtensionScreen": {
+        "playerSideOnly": true
+    },
+    "thelm.packagedauto.client.screen.UnpackagerScreen": {
+        "playerSideOnly": true
+    },
+    "thelm.packagedauto.client.screen.CrafterScreen": {
+        "playerSideOnly": true
+    },
+    "thelm.packagedauto.client.screen.FluidPackageFillerScreen": {
+        "playerSideOnly": true
+    }
+}

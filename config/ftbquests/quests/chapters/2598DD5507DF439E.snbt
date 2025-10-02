@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2598DD5507DF439E"
+	group: "7FABB2F7E5BB8366"
+	icon: "bigreactors:yellorium_ingot"
+	id: "2598DD5507DF439E"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "29C57ACFAF3F00CA"
+			rewards: [{
+				count: 3
+				id: "54693FD9EB348904"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71BA15A7ED47D04E"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			title: "反应堆"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"29C57ACFAF3F00CA"
+				"42AC8C9628394E68"
+			]
+			description: ["将铀锭放入反应堆衰变获得"]
+			id: "638FFC602D281264"
+			rewards: [{
+				count: 5
+				id: "4F2624464B841B92"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "682ACBEBBA52749D"
+				item: "bigreactors:cyanite_ingot"
+				type: "item"
+			}]
+			title: "衰变"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "68939468340A6D50"
+			tasks: [{
+				id: "0D4B068FBED996E3"
+				item: "bigreactors:benitoite_crystal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"68939468340A6D50"
+				"47FD7F2A9A98044C"
+				"69D1FD0C165DD065"
+			]
+			id: "37C6CD08D5B91ACD"
+			rewards: [{
+				count: 32
+				id: "733C735DA32BF701"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A3D2FF3259CB969"
+				item: "bigreactors:insanite_ingot"
+				type: "item"
+			}]
+			title: "狂热锭"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"638FFC602D281264"
+				"69D1FD0C165DD065"
+			]
+			description: ["在再处理器中用水和蓝晶锭制作"]
+			id: "780BCDA663613C1B"
+			rewards: [{
+				count: 5
+				id: "3322087A5C794650"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F4BBA5F9484BBE5"
+				item: "bigreactors:blutonium_ingot"
+				type: "item"
+			}]
+			title: "蓝钚锭"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"435C3DA4BE0D5446"
+				"69D1FD0C165DD065"
+				"780BCDA663613C1B"
+			]
+			description: ["在再处理器中使用蓝钚锭与Cyanite制作"]
+			id: "02F239257EB379BB"
+			rewards: [{
+				count: 8
+				id: "1762568BB7B19923"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "080A5D8E9F4E0BC1"
+				item: "bigreactors:ludicrite_ingot"
+				type: "item"
+			}]
+			title: "镥锭"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3D03BEEF25385315"
+				"69D1FD0C165DD065"
+				"02F239257EB379BB"
+			]
+			description: ["在再处理器中用Magentite和镥锭制作"]
+			id: "191E94277565D3CC"
+			rewards: [{
+				count: 10
+				id: "3D43B06A41E133B8"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E43ABF30AD1955"
+				item: "bigreactors:ridiculite_ingot"
+				type: "item"
+			}]
+			title: "荒谬锭"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4058F6427A5F65EC"]
+			id: "538FAA55E8CBD98D"
+			rewards: [{
+				count: 32
+				id: "549E9BC2DC906F38"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "358A7E19B9CCD028"
+				item: "bigreactors:inanite_block"
+				type: "item"
+			}]
+			title: "无聊块"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37C6CD08D5B91ACD"]
+			dependency_requirement: "all_started"
+			id: "402702E9640B96ED"
+			rewards: [{
+				count: 64
+				id: "1DE063869EE473B1"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7E85AA589D6E8D11"
+				item: "bigreactors:insanite_block"
+				type: "item"
+			}]
+			title: "你的目标"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"191E94277565D3CC"
+				"47FD7F2A9A98044C"
+				"69D1FD0C165DD065"
+			]
+			description: ["在再处理器中用Rossinite和荒谬锭制作"]
+			id: "4058F6427A5F65EC"
+			rewards: [{
+				count: 16
+				id: "368F2AE0409409F0"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08EF3629B5C1F044"
+				item: "bigreactors:inanite_ingot"
+				type: "item"
+			}]
+			title: "无聊锭"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "69D1FD0C165DD065"
+			tasks: [{
+				id: "1FFE7E5D5BBBF788"
+				item: "bigreactors:reprocessorcontroller"
+				type: "item"
+			}]
+			title: "再处理器"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "0924E7214E5935CF"
+			tasks: [{
+				id: "725D2BFFE8A312CB"
+				item: "bigreactors:fluidizercontroller"
+				type: "item"
+			}]
+			title: "流化器"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"638FFC602D281264"
+				"0924E7214E5935CF"
+			]
+			description: ["将蓝晶锭放入安装了一个Fluidizer Solid Injector的流化机中转化而成"]
+			id: "435C3DA4BE0D5446"
+			tasks: [
+				{
+					id: "409367CB42A4154F"
+					item: "bigreactors:cyanite_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "46595BDD22AD9A4C"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"29C57ACFAF3F00CA"
+				"780BCDA663613C1B"
+			]
+			description: ["将蓝钚锭放入反应堆衰变获得"]
+			id: "2B0936CDCBEDEDD1"
+			tasks: [{
+				id: "18BC7ED779FB6C2F"
+				item: "bigreactors:magentite_ingot"
+				type: "item"
+			}]
+			title: "磁铁锭"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0924E7214E5935CF"
+				"2B0936CDCBEDEDD1"
+			]
+			description: ["将磁铁锭放入安装了一个Fluidizer Solid Injector的流化机中转化而成"]
+			id: "3D03BEEF25385315"
+			tasks: [
+				{
+					id: "65D78E7CE0DF38B9"
+					item: "bigreactors:magentite_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F7619E65AB883D4"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0924E7214E5935CF"
+				"780BCDA663613C1B"
+				"42AC8C9628394E68"
+			]
+			description: ["将铀锭与蓝钚锭放入安装了两个Fluidizer Solid Injector的流化机中转化而成"]
+			id: "51567CEC45CC42DB"
+			tasks: [
+				{
+					id: "596059B8BC3BCB3D"
+					item: "bigreactors:verderium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21A962DEFFA044CF"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0924E7214E5935CF"
+				"51567CEC45CC42DB"
+			]
+			description: ["将Verderium通过Reactor Fuel Injection Port(Reinforced)输入到反应堆中衰变而成"]
+			id: "47FD7F2A9A98044C"
+			tasks: [
+				{
+					id: "12B3C673DCD7A1FC"
+					item: "bigreactors:rossinite_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "477FD7CB0FF021EB"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "42AC8C9628394E68"
+			tasks: [{
+				id: "66EE2E165F027193"
+				item: "bigreactors:yellorium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+	title: "Chapter 8: 永无极限"
+}

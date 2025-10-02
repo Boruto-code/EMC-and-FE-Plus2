@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: "7FABB2F7E5BB8366"
+	icon: "ae2:controller"
+	id: "2690C3403F2E2AD2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6AA96CC78BE675EE"]
+			id: "5899BBCA92FCAD84"
+			tasks: [
+				{
+					id: "63BFE88D5A1DDDFA"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "327F3E35BBC886FD"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "5BA6A58DD385FA1F"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "488D9BBDC8418FFC"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "自动化的开始"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C1169043383ABF8"]
+			description: ["进入AE的第一步，先找到陨石获得四大压印模版"]
+			id: "6AA96CC78BE675EE"
+			tasks: [{
+				id: "5C9392950CC91A5E"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "2B30CC99420E2C9A"
+			tasks: [
+				{
+					id: "5E78D503F7398FBF"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "413C7ECF0C8EAB43"
+					item: "ae2:charger"
+					type: "item"
+				}
+			]
+			title: "冲呀(冲压)"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5899BBCA92FCAD84"]
+			id: "3447D3361A77C7D6"
+			tasks: [
+				{
+					id: "5B3DA9F919C816DB"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "6B796A478CDC56EC"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "5BE124C70737D681"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "70CA7BE17A7B6143"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+			]
+			title: "死板的四板"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49F29A21B51775C5"]
+			id: "78D57A59CACC6E4B"
+			tasks: [{
+				id: "33E9E4078786A238"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3447D3361A77C7D6"]
+			id: "7CE02E90FDCA4968"
+			tasks: [
+				{
+					id: "2E4EF0B4D02AA12E"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "25298C708B7FDBC5"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "699F657A8789C4BB"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "三大处理器"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78D57A59CACC6E4B"]
+			id: "11AFDBA474945268"
+			tasks: [{
+				id: "78F71DF840ADB1CE"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B30CC99420E2C9A"]
+			id: "7C1169043383ABF8"
+			tasks: [{
+				id: "64F23D3D9F8BFCD9"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AA96CC78BE675EE"]
+			id: "49F29A21B51775C5"
+			tasks: [
+				{
+					id: "6A50562AF75EDD73"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "24973CFB8B74131B"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7CE02E90FDCA4968"
+				"11AFDBA474945268"
+			]
+			id: "7714B5AF18115948"
+			tasks: [
+				{
+					id: "07358CBE6458CC24"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "74E352D4EB11CC74"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "272B221A68FB43FA"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "5B07003374C7EEAE"
+					item: "ae2:terminal"
+					type: "item"
+				}
+			]
+			title: "一套AE"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7714B5AF18115948"]
+			id: "3D83975872D9C7FE"
+			tasks: [{
+				id: "0A2B29AD4FB4439E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:energy_acceptor"
+							}
+							{
+								Count: 1b
+								id: "ae2:vibration_chamber"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "电源"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D83975872D9C7FE"]
+			id: "1449B9F378CB251F"
+			tasks: [{
+				id: "48EC88F61BDB8983"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "电池"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D83975872D9C7FE"]
+			id: "159464352EC44D73"
+			tasks: [{
+				id: "469D67FDFDEB7884"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:cell_component_256k"
+							}
+							{
+								Count: 1b
+								id: "ae2:cell_component_64k"
+							}
+							{
+								Count: 1b
+								id: "ae2:cell_component_16k"
+							}
+							{
+								Count: 1b
+								id: "ae2:cell_component_4k"
+							}
+							{
+								Count: 1b
+								id: "ae2:cell_component_1k"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "存储"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["159464352EC44D73"]
+			id: "3F7687D3E9B85A63"
+			tasks: [
+				{
+					id: "773035C957293984"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "0CA155D75F399C73"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "开启大自动化时代"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F7687D3E9B85A63"]
+			id: "2C3E32B68CA01FC4"
+			tasks: [
+				{
+					id: "6E29E691DADC92DC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:1k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:4k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:16k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:64k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:256k_crafting_storage"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "013904E48A19DEA0"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "CPU"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C3E32B68CA01FC4"]
+			id: "6C7C6CD4E6D7C774"
+			tasks: [{
+				id: "5B05D5DEEFD1DB80"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "megacells:1m_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:4m_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:16m_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:64m_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "megacells:256m_crafting_storage"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "更强大的CPU"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C3E32B68CA01FC4"]
+			id: "7A8773CA64DF16A9"
+			tasks: [{
+				id: "549DDD6A6CCC4F22"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bigger_ae2:4_core_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "bigger_ae2:16_core_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "bigger_ae2:64_core_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "bigger_ae2:256_core_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "bigger_ae2:1024_core_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "megacells:mega_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:4x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:16x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:64x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:256x_crafting_accelerator"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "更快的CPU"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C3E32B68CA01FC4"]
+			id: "731858170A880BC1"
+			tasks: [
+				{
+					id: "111D9DA6FFD4514D"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+				{
+					id: "77CD4B8E01DB8558"
+					item: "advanced_ae:quantum_storage_256"
+					type: "item"
+				}
+				{
+					id: "06EB760647BB20C5"
+					item: "advanced_ae:data_entangler"
+					type: "item"
+				}
+				{
+					id: "057F0D26E16A1012"
+					item: "advanced_ae:quantum_accelerator"
+					type: "item"
+				}
+				{
+					id: "7346BB02FD7FB574"
+					item: "advanced_ae:quantum_multi_threader"
+					type: "item"
+				}
+				{
+					id: "01D6510BB837EF75"
+					item: "advanced_ae:quantum_structure"
+					type: "item"
+				}
+			]
+			title: "一步到位的CPU"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F7687D3E9B85A63"]
+			id: "6783B7B09D915682"
+			tasks: [
+				{
+					id: "2769E7CD788E8B34"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "41396C4E453EBD5B"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "0882AFC1BA0408B1"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					id: "596C57DAF355B3CE"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "47702EF2099618DC"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
+			title: "一步到位的分子装配室"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E384270E479F70B"]
+			id: "6C01B1F7BD461E37"
+			tasks: [{
+				id: "28E618DB5A822BFB"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			title: "无线"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C01B1F7BD461E37"]
+			id: "5898B841BBB0D42F"
+			tasks: [{
+				id: "6FB3ABAE779467A8"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C01B1F7BD461E37"]
+			id: "2E55E8A10E839AA5"
+			tasks: [{
+				id: "46F3FCE142320054"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			title: "无限的无线"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F7687D3E9B85A63"]
+			id: "36D45FA0C7DD7A75"
+			tasks: [
+				{
+					id: "12B018ABA836E0B7"
+					item: "projectexpansion:transmutation_interface"
+					type: "item"
+				}
+				{
+					id: "218503365148DA76"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			title: "一步到位的转化桌"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BE80A3880E7F2FC"]
+			id: "3E384270E479F70B"
+			tasks: [{
+				id: "0DD3E2D03DAE51C1"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D83975872D9C7FE"]
+			id: "5BE80A3880E7F2FC"
+			tasks: [{
+				id: "5B235E83C513BA43"
+				item: "ae2:fluix_pearl"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E384270E479F70B"]
+			id: "2ED30F5235CB83CA"
+			tasks: [
+				{
+					id: "47081C1FCB5E0976"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "2D12719F39DE51E9"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			title: "无线频道"
+			x: 3.5d
+			y: 2.5d
+		}
+	]
+	title: "Chapter 3: 应用能源"
+}

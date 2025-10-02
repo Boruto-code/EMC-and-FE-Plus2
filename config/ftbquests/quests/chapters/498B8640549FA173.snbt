@@ -1,0 +1,441 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "498B8640549FA173"
+	group: "7FABB2F7E5BB8366"
+	icon: "create:wrench"
+	id: "498B8640549FA173"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"76733FD7A9E6E143"
+				"2BDB865F798A87AD"
+			]
+			id: "5FD206968EBE5B53"
+			rewards: [{
+				count: 10
+				id: "4E6C1F9F3AA24D2B"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "504782C1FEFCC542"
+				item: "rainbowcompound:rainbow_compound"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["013182072CCEEDAD"]
+			id: "2BDB865F798A87AD"
+			rewards: [{
+				count: 5
+				id: "2BDA5710A92C5396"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "381BF8745FCDDF9F"
+				item: "create:refined_radiance"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["013182072CCEEDAD"]
+			id: "76733FD7A9E6E143"
+			rewards: [{
+				count: 5
+				id: "56DE46F03FAB3D82"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A541B70E8E88365"
+				item: "create:shadow_steel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"446633B5E23959C6"
+				"424E7196A259B39B"
+			]
+			id: "013182072CCEEDAD"
+			rewards: [{
+				count: 3
+				id: "25337AB6F5687187"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CDA2103489B2B34"
+				item: "create:chromatic_compound"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"52F84B62DDDE00A0"
+				"52CAE4751E6D8075"
+				"397091EC3835F6DE"
+				"70AC9C62EA9F88EB"
+				"1915AEC8AED97D9F"
+				"395B150D0D9C2F96"
+				"538C07FB391530AC"
+			]
+			id: "446633B5E23959C6"
+			rewards: [{
+				count: 5
+				id: "213389AA5AFB19B2"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FD6FDDC40CF4E4B"
+				item: "rainbowcompound:strange_colored_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "424E7196A259B39B"
+			rewards: [{
+				count: 3
+				id: "6E24CFD6C07EE869"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0502642BE82D367B"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"190D949CB22225B2"
+				"4230AA8BFD1F702B"
+			]
+			id: "1915AEC8AED97D9F"
+			rewards: [{
+				count: 3
+				id: "68CD3428DB7A913C"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5114A521B17C5C74"
+				item: "rainbowcompound:blazeite_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"190D949CB22225B2"
+				"4230AA8BFD1F702B"
+			]
+			id: "397091EC3835F6DE"
+			rewards: [{
+				count: 3
+				id: "4BDDA7A8C20D625A"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BAC1F2EDB5E867B"
+				item: "rainbowcompound:chorusite_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"190D949CB22225B2"
+				"4230AA8BFD1F702B"
+			]
+			id: "70AC9C62EA9F88EB"
+			rewards: [{
+				count: 3
+				id: "3B643436C60544C9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C4D6D97FEFD3E01"
+				item: "rainbowcompound:enderite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"190D949CB22225B2"
+				"4230AA8BFD1F702B"
+			]
+			id: "52CAE4751E6D8075"
+			rewards: [{
+				count: 3
+				id: "1691419EE707E065"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7731D419EB3B3E1F"
+				item: "rainbowcompound:frostite_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"190D949CB22225B2"
+				"4230AA8BFD1F702B"
+			]
+			id: "538C07FB391530AC"
+			rewards: [{
+				count: 3
+				id: "48DEC87232334831"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4510828E0444866B"
+				item: "rainbowcompound:glowstoneite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"190D949CB22225B2"
+				"4230AA8BFD1F702B"
+			]
+			id: "395B150D0D9C2F96"
+			rewards: [{
+				count: 3
+				id: "295C80FCA482AC64"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2923EE16E9B2AB0B"
+				item: "rainbowcompound:netherwartite_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"190D949CB22225B2"
+				"4230AA8BFD1F702B"
+			]
+			id: "52F84B62DDDE00A0"
+			rewards: [{
+				count: 3
+				id: "44C24B55F9DF639F"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C76F93B9D5B01A6"
+				item: "rainbowcompound:warpedite_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["606A5C5B3D54F477"]
+			id: "190D949CB22225B2"
+			rewards: [{
+				count: 3
+				id: "12CC7A24780CD7C3"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45C6EA45259264CF"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DAD4916A9915870"]
+			id: "4230AA8BFD1F702B"
+			rewards: [{
+				count: 5
+				id: "5798C18BA1F47707"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D2F772EC165D9D9"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52BA808C6D987BB7"]
+			id: "2DAD4916A9915870"
+			rewards: [{
+				count: 3
+				id: "5E2196D5949E3344"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B6F05907FBD870A"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52BA808C6D987BB7"]
+			id: "606A5C5B3D54F477"
+			rewards: [{
+				count: 3
+				id: "23783A5381058F6F"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28148D2332C04926"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0568448BB44E0455"]
+			id: "52BA808C6D987BB7"
+			rewards: [{
+				count: 3
+				id: "1DC7F631740E2669"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3010E5420100904D"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"749F21F4E85F52BF"
+				"254B02E6385A1EC8"
+			]
+			id: "0568448BB44E0455"
+			rewards: [{
+				count: 3
+				id: "3CCEB746F2F74AEA"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "208FC30FF00CAFBA"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F2AAC3A5A431F31"]
+			id: "254B02E6385A1EC8"
+			rewards: [{
+				count: 5
+				id: "4A901CC7AF0FCD8D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "063F8B72BC71EFC2"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F2AAC3A5A431F31"]
+			id: "749F21F4E85F52BF"
+			rewards: [{
+				count: 5
+				id: "5F9DD2A71693608D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E08D54D58502116"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "4F2AAC3A5A431F31"
+			rewards: [{
+				count: 5
+				id: "646018B392C4330E"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "开始你的机械动力之旅!"
+			tasks: [{
+				id: "286304091DFD624C"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FD206968EBE5B53"]
+			id: "0A3AEC3A10737DA7"
+			rewards: [{
+				count: 3
+				id: "217C67234E4D800D"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "174EF702A33D01FE"
+				item: "rainbowcompound:netherstar_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+	]
+	title: "Chapter 6: 机械动力"
+}
