@@ -147,27 +147,7 @@ ServerEvents.recipes(event => {
             U: "refinedstorage:creative_wireless_grid"
         }
     )
-
-    avaritia.shaped_table(
-        4,
-        "kubejs:sun_star",
-        [
-            "    S    ",
-            "    S    ",
-            "   SAS   ",
-            "  SAAAS  ",
-            "SSAAAAASS",
-            "  SAAAS",
-            "   SAS   ",
-            "    S    ",
-            "    S    "
-        ],
-        {
-            S: "projectexpansion:compact_sun",
-            A: "mekanism:pellet_antimatter"
-        }
-    )
-
+    
     avaritia.shaped_table(
         4,
         "mekanism:creative_bin",

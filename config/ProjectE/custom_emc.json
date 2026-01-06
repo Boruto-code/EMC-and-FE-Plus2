@@ -203,6 +203,10 @@
     {
       "item": "minecraft:brick",
       "emc": 16
+    },
+    {
+      "item": "minecraft:bedrock",
+      "emc": 2147483647
     }
   ]
 }

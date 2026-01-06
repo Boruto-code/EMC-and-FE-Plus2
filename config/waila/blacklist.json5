@@ -23,6 +23,7 @@
   blocks: [
     "minecraft:barrier",
     "minecraft:structure_void",
+    "minecraft:light",
     "#waila:blacklist"
   ],
   blockEntityTypes: [
@@ -41,7 +42,7 @@
   // The values below are used internally by WTHIT, you SHOULD NOT modify it!
   configVersion: 0,
   pluginHash: [
-    981800043,
+    -158949004,
     1449661236,
     2021915756
   ]

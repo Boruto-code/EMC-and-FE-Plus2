@@ -2,31 +2,58 @@
 enhancedInfo = true
 hideStaticKineticInfo = false
 betterStoreInfo = true
-renderExtraItems = true
 enableKineticEffect = true
-preciseNumbers = true
+preciseNumber = true
 disableScreenGoggles = true
-betterLine = true
+canRenderOnValueBox = false
+extraItemTooltip = true
 [gameMode]
+enableGoggles = true
 enableInSurvival = true
 enableInCreative = true
 enableInSpectator = true
 enableInAdventure = true
+[overlay]
+renderItemOverlay = true
+overlayOffsetX = 0
+overlayOffsetY = 0
+tooltipFlagType = "Default"
+tooltipTheme = "Default"
+useCustomColor = false
+backgroundColor = 0
+borderTopColor = 0
+borderBottomColor = 0
+[outliner]
+renderAnalogBox = true
+betterLine = true
+delayRenderDuration = 60
+outColor = 14532966
+inColor = 8375776
+rainbowDebug = false
 [chainConveyor]
 alwaysAllowRiding = false
 preventFalling = false
 enhancedConnection = true
 cardBoardedYourself = false
-[armor]
-removeBoxOverlay = true
-removeNetheriteFirstPerson = false
-removeDivingBootsAffect = false
 [wrench]
+fixRotationMenu = true
+betterEncasedCogwheel = true
+betterEncasedPipe = true
+betterChassis = true
+alwaysShowScrollValue = true
 alwaysAllowRotating = false
+leftClickFastDismantle = true
 removeCooldown = true
-[other]
-rightClickPenetrate = false
-rainbowDebug = false
+enchancedRotationMenu = false
+[misc]
+removeMechanicalArmLimit = false
+removeRequestLimit = true
+preventSelectionDiscard = true
+infEditBoxLength = false
+removeCardboardOverlay = true
+removeNetheriteFirstPerson = false
+allowDivingBoot = true
+fixSchematicName = true
 forcedBackend = false
-showScrapContent = true
 nbtFix = false
+showScrapContent = true

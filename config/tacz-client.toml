@@ -48,6 +48,8 @@
 	EnableTaczIdInTooltip = true
 	#Whether or not apply fadeout effect on the laser beam. Close this may improve laser performance under some shaders.
 	EnableLaserFadeOut = true
+	#Enable translucent while render block entity or not. Enable this option will result in ADDITIONAL PERFORMANCE OVERHEAD.
+	EnableBlockEntityTranslucent = false
 
 [Zoom]
 	#Screen distance coefficient for zoom, using MDV standard, default is MDV133

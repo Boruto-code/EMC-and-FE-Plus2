@@ -187,10 +187,6 @@
     // This value will get merged with the value from the server
     // Default value: [true]
     "redstone.level": true,
-    // 显示玩家名称
-    // This value will get merged with the value from the server
-    // Default value: [true]
-    "player_head.name": true,
     // 显示堆肥等级
     // This value will get merged with the value from the server
     // Default value: [true]
@@ -283,18 +279,6 @@
     // Custom config, open the following file
     // extra\fluid_blacklist.json5
     "fluid.blacklist": null,
-    // 显示方块合成进度
-    // Require server to have WTHIT installed, if not, will be locked to [false]
-    // Default value: [true]
-    "progress.enabled_block": true,
-    // 显示实体合成进度
-    // Require server to have WTHIT installed, if not, will be locked to [false]
-    // Default value: [true]
-    "progress.enabled_entity": true,
-    // 合成进度黑名单
-    // Custom config, open the following file
-    // extra\progress_blacklist.json5
-    "progress.blacklist": null,
     // 显示方块物品内容
     // Require server to have WTHIT installed, if not, will be locked to [false]
     // Default value: [true]
@@ -326,6 +310,30 @@
     // 物品内容黑名单
     // Custom config, open the following file
     // extra\item_blacklist.json5
-    "item.blacklist": null
+    "item.blacklist": null,
+    // 显示方块合成进度
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "progress.enabled_block": true,
+    // 显示实体合成进度
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "progress.enabled_entity": true,
+    // Show Estimated Time
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "progress.time": true,
+    // Replace Item Tooltip
+    // If enabled, replace item tooltip when the recipe has item input and/or output. If not enabled or no item input and output, only shows a progress bar.
+    // Default value: [false]
+    "progress.replace_items": false,
+    // Progress Bar Height
+    // Only for when it shown as a bar and not an arrow
+    // Default value: [1]
+    "progress.height": 1,
+    // 合成进度黑名单
+    // Custom config, open the following file
+    // extra\progress_blacklist.json5
+    "progress.blacklist": null
   }
 }
