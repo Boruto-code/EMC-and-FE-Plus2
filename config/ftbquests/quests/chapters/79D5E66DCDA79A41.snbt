@@ -91,10 +91,10 @@
 			}]
 			tasks: [{
 				id: "6B7AAEBD18C13ADE"
-				item: "projecte:nova_cataclysm"
+				item: "projecte:nova_catalyst"
 				type: "item"
 			}]
-			title: "虚假的灾难"
+			title: "超新星？"
 			x: 2.5d
 			y: 3.0d
 		}
