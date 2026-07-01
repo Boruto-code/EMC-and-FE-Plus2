@@ -4,6 +4,15 @@
     "item.kubejs.gold_coin":"金币",
     "item.kubejs.diamond_coin":"钻石币",
     "item.kubejs.netherite_coin":"下界合金币",
-    "item.kubejs.incomplete_shadow_steel":"暗影钢（半成品）",
-    "item.kubejs.incomplete_creative_blaze_cake":"创造烈焰蛋糕（半成品）"
+    "item.kubejs.pink_slime": "粉红黏液球",
+    "item.kubejs.wyvern_capacitor_core": "双足飞龙通量容器核心",
+    "item.kubejs.draconic_capacitor_core": "神龙通量容器核心",
+    "item.kubejs.chaotic_capacitor_core": "混沌通量容器核心",
+    "item.kubejs.creative_capacitor_core": "创造通量容器核心",
+    "item.kubejs.incomplete_creative_blaze_cake":"创造烈焰蛋糕（半成品）",
+    "item.kubejs.incomplete_pink_slime": "粉红黏液球（半成品）",
+
+    "block.kubejs.compressed_awakened_draconium_block": "压缩觉醒龙块",
+
+    "tooltip.kubejs.mysterious_tooltip": "需要重复注入十次甚至九次（喜）"
 }

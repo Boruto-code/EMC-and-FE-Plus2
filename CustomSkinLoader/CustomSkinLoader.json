@@ -1,7 +1,17 @@
 {
-  "version": "14.27",
-  "buildNumber": 37,
+  "version": "14.28",
+  "buildNumber": 38,
   "loadlist": [
+    {
+      "name": "GameProfile",
+      "type": "GameProfile"
+    },
+    {
+      "name": "Mojang",
+      "type": "MojangAPI",
+      "apiRoot": "https://api.mojang.com/",
+      "sessionRoot": "https://sessionserver.mojang.com/"
+    },
     {
       "name": "LittleSkin",
       "type": "CustomSkinAPI",
@@ -64,13 +74,6 @@
       "checkPNG": false,
       "model": "auto",
       "cape": "http://161.35.130.99/capes/{USERNAME}.png"
-    },
-    {
-      "name": "LabyMod",
-      "type": "Legacy",
-      "checkPNG": false,
-      "model": "auto",
-      "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}"
     },
     {
       "name": "Cosmetica",

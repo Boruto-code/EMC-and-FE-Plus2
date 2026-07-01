@@ -95,17 +95,16 @@
 		}
 		{
 			description: [
-				"1. 龙之研究与 Embeddium 冲突"
-				"现象：龙之研究的部分物品无渲染"
+				"1. 龙之研究的模型偶尔会出现错误"
 				"解决方法：按 F3+T 重载资源包"
 			]
-			icon: "create:wrench"
-			id: "73CA6DE70F53C16D"
+			icon: "integrateddynamics:wrench"
+			id: "03C7110218C4E0FB"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "777ABBF879B6BB19"
-				title: "Bug提示"
+				id: "1A23830D40D501F6"
+				title: "Bug 提示"
 				type: "checkmark"
 			}]
 			x: -0.5d

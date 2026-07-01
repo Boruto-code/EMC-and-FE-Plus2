@@ -207,6 +207,10 @@
     {
       "item": "minecraft:bedrock",
       "emc": 2147483647
+    },
+    {
+      "item": "create:veridium",
+      "emc": 64
     }
   ]
 }

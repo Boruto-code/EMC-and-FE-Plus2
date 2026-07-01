@@ -410,8 +410,26 @@
 				}
 			]
 			title: "精灵门"
-			x: -1.5d
-			y: 3.0d
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:grass_block"
+			id: "5C917B2A8AF4C11E"
+			rewards: [{
+				command: "/execute as Hamburger0abcde in kubejs:flat run tp @s 0 64 0"
+				icon: "minecraft:grass_block"
+				id: "0E67998D6FA9A600"
+				type: "command"
+			}]
+			tasks: [{
+				id: "36744FBE7030554A"
+				title: "传送到超平坦世界"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 	title: "抽奖/商店"

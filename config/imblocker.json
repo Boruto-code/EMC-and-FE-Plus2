@@ -3,7 +3,8 @@
     "screenWhitelist": [
       "net.mehvahdjukaar.supplementaries.client.screens.TextHolderEditScreen",
       "net.minecraft.client.gui.screens.inventory.BookEditScreen",
-      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen"
+      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen",
+      "dev.ftb.mods.ftblibrary.ui.ScreenWrapper"
     ],
     "enableScreenRecovering": false,
     "recoveredScreens": [],
@@ -16,7 +17,8 @@
   "windowsCompatibilitySettings": {
     "enableConversionStatusApi": true,
     "enableCursorPositionTracking": true,
-    "enableCompositionFontTweaks": true
+    "enableCompositionFontTweaks": true,
+    "enableIngameIME": false
   },
   "linuxCompatibilitySettings": {
     "enableKeyboardPatch": true,

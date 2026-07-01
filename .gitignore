@@ -1,4 +1,4 @@
-.replay_cache
+.mixin.out
 .vscode
 assets
 backups
@@ -12,6 +12,7 @@ libraries
 local
 logs
 modernfix
+moonlight-global-datapacks
 patchouli_books
 PCL
 replay_recordings
@@ -20,6 +21,7 @@ schematics
 screenshots
 tacz
 tacz_backup
+wd_filehost
 xaero
 XaeroWaypoints_BACKUP240807
 authlib-injector.log

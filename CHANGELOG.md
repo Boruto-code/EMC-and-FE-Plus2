@@ -1,6 +1,30 @@
 # EMC & FE ++ Change Log
 ---
-## Latest 1.0.5
+## Latest 1.0.6
+### 修复
+- 无
+
+### 新增
+- 超平坦维度
+- Mod: Oculus
+- Mod: Draconic Evolution Render Patcher
+
+### 调整
+- 优化任务线
+- 改动配方，删除创造流体储罐和创造化学品储罐的配方 (Mekanism)
+- 添加自定义物品以解决龙之研究自动化时的NBT问题
+- 删除 Mod: Better Advancements
+- 删除 Mod: MmmMmmMmmMmm
+- 删除 Mod: Timeless and Classics Zero
+- 删除 Mod: Advancements Tracker and Overview
+- 删除 Mod: MaFgLib
+- 删除 Mod: Tweakerage
+- 删除 Mod: Forgematica
+- 删除 Mod: Pylons
+
+---
+
+## 1.0.5
 ### 修复
 - 无
 
@@ -10,7 +34,6 @@
 ### 调整
 - 优化任务线
 
----
 ## 1.0.4
 ### 修复
 - 无

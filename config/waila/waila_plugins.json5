@@ -206,6 +206,10 @@
     // Require server to have WTHIT installed, if not, will be locked to [false]
     // Default value: [true]
     "book.bookshelf": true,
+    // Show Lectern Books
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "book.lectern": true,
     // 附魔显示模式
     // Default value: [CYCLE]
     // Available values: [SEPARATE, COMBINED, CYCLE, DISABLED]
@@ -213,9 +217,9 @@
     // 附魔循环计时（毫秒）
     // Default value: [500]
     "book.enchantment_cycle_timing": 500,
-    // 展示书籍的作者和时间
+    // Show Book Details
     // Default value: [true]
-    "book.written": true
+    "book.details": true
   },
   harvest: {
     // 显示收获物品

@@ -104,7 +104,36 @@
     // Default value: [§8%s]
     registryName: "§8%s",
     // 
-    styles: {}
+    styles: {
+      // 
+      "§f%s": {
+        // 
+        f_131101_: {
+          // 
+          f_131257_: 16777215,
+          // 
+          f_131258_: "white"
+        },
+        // 
+        f_131102_: false,
+        // 
+        f_131103_: false,
+        // 
+        f_131104_: false,
+        // 
+        f_131105_: false,
+        // 
+        f_131106_: false,
+        // 
+        f_131107_: null,
+        // 
+        f_131108_: null,
+        // 
+        f_131109_: null,
+        // 
+        f_131110_: null
+      }
+    }
   },
   keyBinds: {
     // 打开配置

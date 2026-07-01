@@ -22,8 +22,8 @@
 				type: "item"
 			}]
 			title: "聚变"
-			x: -1.5d
-			y: -2.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["29C57ACFAF3F00CA"]
@@ -41,7 +41,7 @@
 			}]
 			title: "衰变"
 			x: -1.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			id: "68939468340A6D50"
@@ -50,8 +50,8 @@
 				item: "bigreactors:benitoite_crystal"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -70,8 +70,8 @@
 				item: "bigreactors:insanite_ingot"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["638FFC602D281264"]
@@ -88,7 +88,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["780BCDA663613C1B"]
@@ -105,7 +105,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["02F239257EB379BB"]
@@ -125,20 +125,7 @@
 			y: 2.0d
 		}
 		{
-			id: "1DEDADC18A662999"
-			tasks: [{
-				id: "6C719A376735B399"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"1DEDADC18A662999"
-				"4058F6427A5F65EC"
-			]
+			dependencies: ["4058F6427A5F65EC"]
 			id: "538FAA55E8CBD98D"
 			rewards: [{
 				count: 32
@@ -151,8 +138,8 @@
 				item: "bigreactors:inanite_block"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.0d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -171,8 +158,8 @@
 				item: "bigreactors:insanite_block"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["191E94277565D3CC"]
@@ -189,7 +176,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.0d
+			y: 3.5d
 		}
 	]
 	title: "Chapter 8: 永无极限"

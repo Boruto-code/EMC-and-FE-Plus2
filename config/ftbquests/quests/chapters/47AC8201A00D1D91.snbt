@@ -23,8 +23,8 @@
 				type: "item"
 			}]
 			title: "超大配方"
-			x: 0.0d
-			y: -2.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["354689FEA6FEC457"]
@@ -377,8 +377,8 @@
 				item: "avaritia:end_crafting_table"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0AD3B375598B86D3"]
@@ -394,8 +394,8 @@
 				item: "avaritia:nether_crafting_table"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			id: "0AD3B375598B86D3"
@@ -410,8 +410,8 @@
 				item: "avaritia:sculk_crafting_table"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 4.0d
+			y: -1.0d
 		}
 	]
 	title: "Chapter 2: 无尽贪婪"

@@ -278,11 +278,18 @@
 				item: "kubejs:diamond_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "59A82E8DF0993315"
-				item: "draconicevolution:crafting_core"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "59A82E8DF0993315"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+				{
+					id: "3AEA85121B690760"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 2.5d
 		}
