@@ -369,5 +369,70 @@
                 "top": 28
             }
         }
+    },
+    "committee.nova.mods.avaritia.client.screen.craft.SculkCraftScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            }
+        }
+    },
+    "committee.nova.mods.avaritia.client.screen.craft.NetherCraftScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            }
+        }
+    },
+    "committee.nova.mods.avaritia.client.screen.craft.EndCraftScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            }
+        }
+    },
+    "committee.nova.mods.avaritia.client.screen.NeutronCompressorScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiMetallurgicInfuser": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 41
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 26
+            }
+        }
     }
 }

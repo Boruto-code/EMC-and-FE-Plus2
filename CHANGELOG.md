@@ -8,6 +8,9 @@
 - 超平坦维度
 - Mod: Oculus
 - Mod: Draconic Evolution Render Patcher
+- Mod: Iglee's Lib
+- Mod: Evolved Mekanism
+- Mod: Mekanism: More Machine
 
 ### 调整
 - 优化任务线

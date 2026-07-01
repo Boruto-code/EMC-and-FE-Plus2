@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
 
     avaritia.shaped_table(
         4,
-        "kubejs:creative_capacitor_core"
+        "kubejs:creative_capacitor_core",
         [
             "AAAACAAAA",
             "AEEBCBEEA",
@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
 
     avaritia.shaped_table(
         4,
-        "draconicevolution:creative_op_capacitor"
+        "draconicevolution:creative_op_capacitor",
         [
             "BBCCCCCBB",
             "BBBBBBBBB",

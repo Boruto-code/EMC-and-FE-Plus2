@@ -1,0 +1,31 @@
+
+#Machine Energy Usage Config. This config is synced from server to client.
+[usage]
+	#Energy per operation tick (Joules).
+	recycler = "50"
+	#Energy per operation tick (Joules).
+	plantingStation = "200"
+	#Energy per operation tick (Joules).
+	cnc_stamper = "50"
+	#Energy per operation tick (Joules).
+	cnc_lathe = "50"
+	#Energy per operation tick (Joules).
+	cnc_rollingMill = "50"
+	#Energy per operation tick (Joules).
+	ambientGasCollector = "100"
+	#Energy per operation tick (Joules).
+	" largeRotaryCondensentrator " = "50"
+	#Energy per operation tick (Joules).
+	" largeChemicalInfuser " = "100"
+	#Energy per operation tick (Joules).
+	" largeAntiprotonicNucleosynthesizer " = "500000"
+	#Energy per operation tick (Joules).
+	" largePigmentMixer " = "100"
+
+	#Settings for configuring Replicator Energy Usage
+	[usage.replicator]
+		#Energy per operation tick (Joules).
+		itemReplicator = "102400"
+		#Energy per operation tick (Joules).
+		fluidReplicator = "102400"
+

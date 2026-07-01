@@ -211,6 +211,18 @@
     {
       "item": "create:veridium",
       "emc": 64
+    },
+    {
+      "item": "minecraft:bucket",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:lava_bucket",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "emc": 768
     }
   ]
 }

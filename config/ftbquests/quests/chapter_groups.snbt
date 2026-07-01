@@ -2,6 +2,6 @@
 	chapter_groups: [
 		{ id: "7FABB2F7E5BB8366", title: "主线" }
 		{ id: "67DDB26600B9A092", title: "支线" }
-		{ id: "3D98C137848D0155", title: "Chapter 6: 机械动力" }
+		{ id: "3D98C137848D0155", title: "机械动力" }
 	]
 }
